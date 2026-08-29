@@ -1,0 +1,14 @@
+{
+  "id": "business", "label": "Business", "defaultTokens": "clean-corporate", "copyBank": "business",
+  "shared": ["nav", "footer"],
+  "pages": [
+    { "slug": "index", "title": "Home", "default": true,
+      "sections": ["nav", "hero", "features", "social-proof", "testimonials", "cta", "footer"] },
+    { "slug": "about", "title": "About",
+      "sections": ["nav", "page-header", "about-strip", "team", "footer"] },
+    { "slug": "services", "title": "Services",
+      "sections": ["nav", "page-header", "services", "pricing", "footer"] },
+    { "slug": "contact", "title": "Contact",
+      "sections": ["nav", "page-header", "contact", "faq", "footer"] }
+  ]
+}

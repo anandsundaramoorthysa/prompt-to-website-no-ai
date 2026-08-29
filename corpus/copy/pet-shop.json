@@ -1,0 +1,315 @@
+{
+  "industry": "pet-shop",
+  "nav.cta_label": [
+    "Shop now",
+    "Browse treats",
+    "See the range"
+  ],
+  "hero.heading": [
+    "Better food for better dogs",
+    "Real ingredients, happy pets",
+    "What your pet actually needs",
+    "Nutrition they deserve"
+  ],
+  "hero.subheading": [
+    "We make small-batch pet food from ingredients you can pronounce. Free delivery on orders over thirty pounds.",
+    "No fillers, no by-products. Vet-approved recipes made with real meat, grains and vegetables.",
+    "Everything is slow-cooked in small batches and shipped fresh to your door.",
+    "Trusted by over two thousand pet owners. Thirty-day money-back guarantee."
+  ],
+  "hero.cta_primary": [
+    "Shop the range",
+    "Browse food"
+  ],
+  "hero.cta_secondary": [
+    "See ingredients",
+    "How it is made"
+  ],
+  "product-grid.heading": [
+    "The range",
+    "What we make",
+    "Our recipes"
+  ],
+  "product-grid.subheading": [
+    "Six recipes, all vet-approved. No artificial preservatives.",
+    "Real food for real pets. Restocked weekly."
+  ],
+  "product-grid.items": [
+    [
+      {
+        "name": "Chicken and brown rice",
+        "price": "£28",
+        "note": "All breeds, everyday nutrition"
+      },
+      {
+        "name": "Lamb and sweet potato",
+        "price": "£32",
+        "note": "Grain-free, sensitive stomachs"
+      },
+      {
+        "name": "Salmon and pea",
+        "price": "£34",
+        "note": "Omega-rich, skin and coat"
+      },
+      {
+        "name": "Beef and barley",
+        "price": "£30",
+        "note": "High protein, active dogs"
+      },
+      {
+        "name": "Turkey and cranberry",
+        "price": "£29",
+        "note": "Low fat, senior dogs"
+      },
+      {
+        "name": "Peanut butter training treats",
+        "price": "£12",
+        "note": "Soft bake, palm-oil free"
+      }
+    ]
+  ],
+  "social-proof.heading": [
+    "Why pet owners trust us",
+    "The numbers"
+  ],
+  "social-proof.stats": [
+    [
+      {
+        "value": "2,400+",
+        "label": "Happy pets and counting"
+      },
+      {
+        "value": "100%",
+        "label": "Human-grade ingredients"
+      },
+      {
+        "value": "0",
+        "label": "Artificial preservatives"
+      }
+    ]
+  ],
+  "social-proof.logos": [
+    [
+      {
+        "name": "Paws Weekly"
+      },
+      {
+        "name": "The Pet Gazette"
+      },
+      {
+        "name": "Good Dog Co"
+      },
+      {
+        "name": "Bark & Bond"
+      }
+    ]
+  ],
+  "newsletter.heading": [
+    "Join the pack",
+    "Stay in the loop"
+  ],
+  "newsletter.subheading": [
+    "Monthly tips on pet nutrition, plus early access to new recipes.",
+    "One email a month. Unsubscribe any time."
+  ],
+  "newsletter.action": [
+    "#"
+  ],
+  "newsletter.submit_label": [
+    "Subscribe"
+  ],
+  "about-strip.heading": [
+    "Our story",
+    "How it started",
+    "Why we do this"
+  ],
+  "about-strip.body": [
+    "We started making dog food at home when our own dog refused everything on the shelf. Turns out most pets feel the same way about real food.",
+    "Every recipe is developed with a veterinary nutritionist and tested by a panel of very enthusiastic dogs.",
+    "We believe pet food should be made the same way you would cook for yourself: real ingredients, no shortcuts."
+  ],
+  "cta.heading": [
+    "Try a sample pack",
+    "See what they think"
+  ],
+  "cta.subheading": [
+    "Not sure which recipe? Start with the taster box. Free returns if your pet disagrees.",
+    "Thirty-day money-back guarantee. No risk."
+  ],
+  "cta.cta_label": [
+    "Order a taster box",
+    "Shop now"
+  ],
+  "contact.heading": [
+    "Get in touch",
+    "Questions about your order"
+  ],
+  "contact.subheading": [
+    "Feeding advice, order changes, wholesale -- we reply within a working day.",
+    "Real people, not bots. We know pets."
+  ],
+  "contact.action": [
+    "#"
+  ],
+  "contact.submit_label": [
+    "Send message"
+  ],
+  "page-header.subheading": [
+    "",
+    "Real food for real pets."
+  ],
+  "shipping.items": [
+    [
+      {
+        "title": "Free delivery",
+        "body": "On orders over thirty pounds"
+      },
+      {
+        "title": "Freshness guarantee",
+        "body": "Shipped chilled, arrives fresh"
+      },
+      {
+        "title": "Money-back guarantee",
+        "body": "Thirty days, no questions"
+      }
+    ]
+  ],
+  "press.heading": [
+    "As featured in"
+  ],
+  "press.items": [
+    [
+      {
+        "quote": "The dog food you wish you had found sooner.",
+        "source": "Paws Weekly"
+      },
+      {
+        "quote": "Finally, pet food with ingredients you recognise.",
+        "source": "The Pet Gazette"
+      },
+      {
+        "quote": "Our rescue has never eaten this well.",
+        "source": "Bark & Bond"
+      }
+    ]
+  ],
+  "hours.heading": [
+    "Collection hours"
+  ],
+  "hours.subheading": [
+    "Order online, collect from the kitchen."
+  ],
+  "hours.days": [
+    [
+      {
+        "day": "Monday to Friday",
+        "time": "09:00 - 17:00"
+      },
+      {
+        "day": "Saturday",
+        "time": "10:00 - 14:00"
+      },
+      {
+        "day": "Sunday",
+        "time": "Closed"
+      }
+    ]
+  ],
+  "location.heading": [
+    "Visit the kitchen"
+  ],
+  "location.address": [
+    "Unit 12, Mill Lane Industrial Estate\nChester CH1 3AB"
+  ],
+  "location.travel": [
+    "Parking at the front. Dogs very welcome."
+  ],
+  "location.links_out": [
+    [
+      {
+        "label": "Get directions",
+        "href": "#"
+      }
+    ]
+  ],
+  "testimonials.heading": [
+    "What pet owners say"
+  ],
+  "testimonials.items": [
+    [
+      {
+        "quote": "My dog used to skip meals. Now she runs to the bowl before I have finished scooping.",
+        "author": "Sarah T.",
+        "role": "Owner of Mabel, Labrador"
+      },
+      {
+        "quote": "We switched from a big brand and the difference in energy and coat quality was visible in two weeks.",
+        "author": "James K.",
+        "role": "Owner of Biscuit, Spaniel"
+      },
+      {
+        "quote": "The salmon recipe cleared up the skin issues our vet could not fix with medication alone.",
+        "author": "Priya M.",
+        "role": "Owner of Ziggy, French Bulldog"
+      }
+    ]
+  ],
+  "features.heading": [
+    "Why switch",
+    "What makes us different"
+  ],
+  "features.subheading": [
+    "Six things every pet food should do."
+  ],
+  "features.items": [
+    [
+      {
+        "title": "Human-grade ingredients",
+        "body": "Every ingredient is fit for human consumption before it goes into the recipe."
+      },
+      {
+        "title": "Vet-approved recipes",
+        "body": "Developed with veterinary nutritionists to meet FEDIAF guidelines."
+      },
+      {
+        "title": "No fillers or by-products",
+        "body": "No meat meal, no unnamed fats, no ingredient splitting."
+      },
+      {
+        "title": "Small-batch cooked",
+        "body": "Slow-cooked in batches of two hundred kilograms or fewer."
+      },
+      {
+        "title": "Shipped fresh",
+        "body": "Chilled delivery so it arrives the way it left the kitchen."
+      },
+      {
+        "title": "Thirty-day guarantee",
+        "body": "Full refund if your pet does not love it."
+      }
+    ]
+  ],
+  "faq.heading": [
+    "Common questions"
+  ],
+  "faq.items": [
+    [
+      {
+        "question": "Is this suitable for puppies?",
+        "answer": "The chicken and turkey recipes are approved for all life stages, including puppies from eight weeks."
+      },
+      {
+        "question": "How should I store it?",
+        "answer": "Keep refrigerated. Each pack stays fresh for five days once opened."
+      },
+      {
+        "question": "Do you deliver nationwide?",
+        "answer": "Yes. Chilled courier, next working day. Free on orders over thirty pounds."
+      },
+      {
+        "question": "Can I change or cancel a subscription?",
+        "answer": "Any time, no penalty. Adjust, pause or cancel from your account page."
+      }
+    ]
+  ]
+}

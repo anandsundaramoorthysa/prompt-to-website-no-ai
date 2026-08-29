@@ -29,7 +29,10 @@ export function resolveSession(session: Session): { plan: Plan; model: SiteModel
     pages: basePlan.pages.map((p) => ({ ...p, sections: [...p.sections], variants: { ...p.variants } })),
     seed: seedFrom(base),
     unknown: [...intent.unknown],
-    notes: []
+    notes: [],
+    claims: intent.claims
+      .filter((c) => c.kind !== 'unknown')
+      .map((c) => ({ text: c.text, kind: c.kind, value: c.value }))
   };
 
   for (let i = 1; i < enabled.length; i++) {

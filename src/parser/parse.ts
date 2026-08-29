@@ -105,7 +105,7 @@ export function parse(prompt: string, defaultStack: Stack = 'bootstrap'): Intent
   const FLOOR = 6;
   const ambiguous = !siteType || best < FLOOR;
   if (!siteType) {
-    siteType = Object.keys(CORPUS.recipes)[0];
+    siteType = CORPUS.recipes['business'] ? 'business' : Object.keys(CORPUS.recipes)[0];
     best = 0;
   }
 

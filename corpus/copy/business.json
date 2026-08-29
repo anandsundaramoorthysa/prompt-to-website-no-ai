@@ -1,0 +1,289 @@
+{
+  "industry": "business",
+  "nav.cta_label": [
+    "Get started",
+    "Contact us",
+    "Learn more"
+  ],
+  "hero.heading": [
+    "Built around what you need",
+    "The smarter way to get it done",
+    "Trusted by teams who care about results",
+    "Simple, reliable, effective"
+  ],
+  "hero.subheading": [
+    "We help people and businesses solve the problems that slow them down. No jargon, no fuss.",
+    "A small team with big experience. We have been doing this for over a decade.",
+    "Talk to us first. If we are not the right fit, we will tell you.",
+    "Thousands of happy customers. Thirty-day money-back guarantee."
+  ],
+  "hero.cta_primary": [
+    "Get started",
+    "See how it works"
+  ],
+  "hero.cta_secondary": [
+    "Learn more",
+    "View pricing"
+  ],
+  "features.heading": [
+    "Why choose us",
+    "What we offer"
+  ],
+  "features.subheading": [
+    "A few things we do differently."
+  ],
+  "features.items": [
+    [
+      {
+        "title": "Personal service",
+        "body": "You talk to real people who know your account, not a ticket queue."
+      },
+      {
+        "title": "Transparent pricing",
+        "body": "No hidden fees, no lock-in contracts. Pay for what you use."
+      },
+      {
+        "title": "Fast turnaround",
+        "body": "Most requests are handled within one working day."
+      },
+      {
+        "title": "Proven track record",
+        "body": "Trusted by over a thousand businesses since we started."
+      },
+      {
+        "title": "Flexible plans",
+        "body": "Scale up or down any time. No penalties for changing your mind."
+      },
+      {
+        "title": "Quality guarantee",
+        "body": "If you are not satisfied, we will make it right or refund you."
+      }
+    ]
+  ],
+  "social-proof.heading": [
+    "Trusted by",
+    "Our clients"
+  ],
+  "social-proof.stats": [
+    [
+      {
+        "value": "1,200+",
+        "label": "Customers served"
+      },
+      {
+        "value": "98%",
+        "label": "Satisfaction rate"
+      },
+      {
+        "value": "24h",
+        "label": "Average response time"
+      }
+    ]
+  ],
+  "social-proof.logos": [
+    [
+      {
+        "name": "Northwind"
+      },
+      {
+        "name": "Fernway"
+      },
+      {
+        "name": "Harbour Press"
+      },
+      {
+        "name": "Kestrel"
+      }
+    ]
+  ],
+  "testimonials.heading": [
+    "What our clients say"
+  ],
+  "testimonials.items": [
+    [
+      {
+        "quote": "They delivered exactly what they promised, on time, and within budget. Hard to find these days.",
+        "author": "Alex R.",
+        "role": "Operations Manager"
+      },
+      {
+        "quote": "We switched after years with a larger provider. The difference in responsiveness is night and day.",
+        "author": "Sam P.",
+        "role": "Small Business Owner"
+      },
+      {
+        "quote": "Clear communication, fair pricing, no surprises. Exactly what a business relationship should be.",
+        "author": "Jordan L.",
+        "role": "Founder"
+      }
+    ]
+  ],
+  "cta.heading": [
+    "Ready to get started?",
+    "Let us talk"
+  ],
+  "cta.subheading": [
+    "Book a free consultation. No pressure, no obligations.",
+    "Reach out today and see how we can help."
+  ],
+  "cta.cta_label": [
+    "Book a call",
+    "Get in touch"
+  ],
+  "about-strip.heading": [
+    "Our story",
+    "About us",
+    "Who we are"
+  ],
+  "about-strip.body": [
+    "We started because we saw a gap between what people needed and what was on offer. That gap is still what drives us.",
+    "A team of twelve, working out of one office, serving clients across the country.",
+    "We believe in doing fewer things well rather than everything badly."
+  ],
+  "services.heading": [
+    "What we do",
+    "Our services"
+  ],
+  "services.subheading": [
+    "Core services we offer to every client."
+  ],
+  "services.items": [
+    [
+      {
+        "title": "Consulting",
+        "body": "We sit down with you, understand the problem, and map out a plan."
+      },
+      {
+        "title": "Implementation",
+        "body": "We do the work, not just the strategy. Hands-on from start to finish."
+      },
+      {
+        "title": "Ongoing support",
+        "body": "After delivery, we stay available. Problems do not keep office hours."
+      }
+    ]
+  ],
+  "contact.heading": [
+    "Get in touch",
+    "Contact us"
+  ],
+  "contact.subheading": [
+    "Drop us a message and we will reply within one working day.",
+    "Questions, quotes, or just a chat. We are here."
+  ],
+  "contact.action": [
+    "#"
+  ],
+  "contact.submit_label": [
+    "Send message"
+  ],
+  "page-header.subheading": [
+    "",
+    "Simple, reliable, effective."
+  ],
+  "faq.heading": [
+    "Common questions"
+  ],
+  "faq.items": [
+    [
+      {
+        "question": "How much does it cost?",
+        "answer": "It depends on scope. We give fixed quotes after an initial conversation so there are no surprises."
+      },
+      {
+        "question": "How long does a typical project take?",
+        "answer": "Most projects run two to six weeks. We will give you a timeline before we start."
+      },
+      {
+        "question": "Do you offer ongoing support?",
+        "answer": "Yes. Monthly plans start from a low flat rate and you can cancel any time."
+      },
+      {
+        "question": "What if I am not happy with the result?",
+        "answer": "We offer a thirty-day money-back guarantee on all new projects."
+      }
+    ]
+  ],
+  "pricing.heading": [
+    "Pricing"
+  ],
+  "pricing.subheading": [
+    "Straightforward plans. No hidden fees."
+  ],
+  "pricing.tiers": [
+    [
+      {
+        "name": "Starter",
+        "price": "Free",
+        "features": ["Core features", "Email support", "1 user"],
+        "cta": "Get started"
+      },
+      {
+        "name": "Professional",
+        "price": "$49/mo",
+        "features": ["Everything in Starter", "Priority support", "5 users", "Analytics"],
+        "cta": "Start free trial",
+        "highlight": true
+      },
+      {
+        "name": "Enterprise",
+        "price": "Custom",
+        "features": ["Everything in Pro", "Dedicated manager", "Unlimited users", "SLA"],
+        "cta": "Contact us"
+      }
+    ]
+  ],
+  "team.heading": [
+    "The team"
+  ],
+  "team.subheading": [
+    "Small enough to care, experienced enough to deliver."
+  ],
+  "team.members": [
+    [
+      {
+        "name": "Alex Morgan",
+        "role": "Founder",
+        "bio": "Started the company ten years ago after a decade in the industry."
+      },
+      {
+        "name": "Sam Chen",
+        "role": "Operations",
+        "bio": "Keeps everything running. Clients talk to Sam more than anyone."
+      },
+      {
+        "name": "Jordan Ellis",
+        "role": "Lead Specialist",
+        "bio": "The one who actually does the work. Twelve years of hands-on experience."
+      }
+    ]
+  ],
+  "press.heading": [
+    "Featured in"
+  ],
+  "press.items": [
+    [
+      {
+        "quote": "A refreshingly straightforward approach.",
+        "source": "Industry Weekly"
+      },
+      {
+        "quote": "The small firm punching well above its weight.",
+        "source": "Business Today"
+      }
+    ]
+  ],
+  "newsletter.heading": [
+    "Stay updated"
+  ],
+  "newsletter.subheading": [
+    "Occasional updates. No spam, ever.",
+    "One email a month at most. Unsubscribe any time."
+  ],
+  "newsletter.action": [
+    "#"
+  ],
+  "newsletter.submit_label": [
+    "Subscribe"
+  ]
+}
