@@ -2,7 +2,7 @@
   "name": "prompt-to-website-no-ai",
   "displayName": "Prompt to Website — No AI",
   "description": "Production front-end sites from a prompt. No model, no API key, no network.",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "license": "MIT",
   "publisher": "AnandSundaramoorthySa",
   "engines": {
@@ -68,6 +68,11 @@
         "command": "promptToWebsite.diagnostics",
         "title": "Copy diagnostic report",
         "category": "Prompt to Website"
+      },
+      {
+        "command": "promptToWebsite.toggleStep",
+        "title": "Toggle step",
+        "category": "Prompt to Website"
       }
     ],
     "configuration": {
@@ -89,6 +94,49 @@
           "description": "First port tried by the local preview server. Bound to 127.0.0.1 only."
         }
       }
+    },
+    "viewsContainers": {
+      "activitybar": [
+        {
+          "id": "promptToWebsite",
+          "title": "Prompt to Website",
+          "icon": "media/sidebar.svg"
+        }
+      ]
+    },
+    "views": {
+      "promptToWebsite": [
+        {
+          "id": "promptToWebsite.stack",
+          "name": "Prompt stack",
+          "icon": "media/sidebar.svg",
+          "contextualTitle": "Prompt to Website"
+        }
+      ]
+    },
+    "menus": {
+      "view/title": [
+        {
+          "command": "promptToWebsite.generate",
+          "when": "view == promptToWebsite.stack",
+          "group": "navigation@1"
+        },
+        {
+          "command": "promptToWebsite.refine",
+          "when": "view == promptToWebsite.stack",
+          "group": "navigation@2"
+        },
+        {
+          "command": "promptToWebsite.preview",
+          "when": "view == promptToWebsite.stack",
+          "group": "navigation@3"
+        },
+        {
+          "command": "promptToWebsite.studio",
+          "when": "view == promptToWebsite.stack",
+          "group": "navigation@4"
+        }
+      ]
     }
   },
   "scripts": {
@@ -103,11 +151,12 @@
     "check:contrast": "node scripts/check-contrast.mjs",
     "audit:a11y": "node scripts/audit-a11y.mjs",
     "new-block": "node scripts/new-block.mjs",
-    "verify": "npm run build && npm run check:tokens && npm run check:contrast && npm run check:size && npm test && npm run audit:coverage",
+    "verify": "npm run build && npm run check:tokens && npm run check:icons && npm run check:contrast && npm run check:size && npm test && npm run audit:coverage",
     "audit:manual": "node scripts/audit-manual.mjs",
     "audit": "node scripts/audit-a11y.mjs .tmp/audit-site && node scripts/audit-manual.mjs .tmp/audit-site",
     "audit:coverage": "node scripts/audit-coverage.mjs && node scripts/audit-a11y.mjs .tmp/coverage && node scripts/audit-manual.mjs .tmp/coverage-blocks",
-    "vscode:prepublish": "npm run build"
+    "vscode:prepublish": "npm run build",
+    "check:icons": "node scripts/check-icons.mjs"
   },
   "devDependencies": {
     "@types/node": "^20.14.0",

@@ -114,3 +114,18 @@ a.pw-visually-hidden:focus-visible {
 }
 .pw-input:focus-visible { outline: 2px solid var(--pw-color-primary); outline-offset: 1px; }
 .pw-form .pw-btn { justify-self: start; }
+
+/* Inline icons. The svg inherits colour from its container through
+   currentColor, so an icon never needs its own palette entry and cannot
+   drift out of contrast. .pw-icon__glyph is the letter shown when a copy
+   bank names an icon that does not exist. */
+.pw-icon__svg {
+  inline-size: 22px;
+  block-size: 22px;
+  display: block;
+}
+.pw-icon__glyph {
+  font-family: var(--pw-font-display);
+  font-weight: 700;
+  line-height: 1;
+}

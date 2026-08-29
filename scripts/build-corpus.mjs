@@ -78,6 +78,7 @@ const index = {
   recipes,
   copy,
   baseCss: readFileSync(join(corpus, 'base.css'), 'utf8'),
+  icons: readJSON(join(corpus, 'icons.json')),
   lexicon: {
     siteTypes: readJSON(join(corpus, 'lexicon', 'site-types.json')),
     stacks: readJSON(join(corpus, 'lexicon', 'stacks.json')),

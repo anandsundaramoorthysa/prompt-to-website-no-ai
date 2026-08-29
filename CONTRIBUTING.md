@@ -96,7 +96,7 @@ Press **F5** in VS Code to launch the Extension Development Host.
 | `npm run build` | Vendor Bootstrap, compile the corpus, bundle with esbuild |
 | `npm run watch` | Same, in watch mode |
 | `npm run verify` | Everything below, in order — run this before opening a PR |
-| `npm test` | 26 unit tests |
+| `npm test` | 33 unit tests |
 | `npm run check:tokens` | Raw colours, raw spacing, physical properties, `opacity` on text |
 | `npm run check:contrast` | Every token pair, both themes |
 | `npm run check:size` | Package-size budget against the 40 MB cap |
@@ -162,6 +162,7 @@ Settled decisions, not preferences. See [PREFLIGHT.md](PREFLIGHT.md) for the rea
 | Rule | Enforced by |
 | :--- | :--- |
 | Tokens only — no raw hex, no raw px in spacing | `check:tokens` |
+| Icons named in copy banks must exist | `check:icons` |
 | Logical properties (`margin-inline`, `padding-block`, `inset-inline`) | `check:tokens` |
 | No `opacity` on text — it silently destroys contrast | `check:tokens` |
 | Interactive targets at least `var(--pw-target-min)` — WCAG 2.5.8 | `audit:manual` |
@@ -186,6 +187,34 @@ Shared primitives — `.pw-btn`, `.pw-card`, `.pw-form`, `.pw-input`, `.pw-conta
 `.pw-grid` — live in `corpus/base.css`. **Put shared rules there, not in a block.** A block
 that quietly depends on another block's CSS renders unstyled when that block is absent.
 This has already happened once, to the booking form.
+
+---
+
+## Icons
+
+Icons live in `corpus/icons.json` as bare SVG path data on a 24x24 grid. They are drawn
+into the page rather than loaded, which is what keeps generated sites at zero external
+requests.
+
+To use one, name it in a copy bank item:
+
+```jsonc
+{ "title": "Shared timelines", "body": "...", "icon": "chart" }
+```
+
+To add one:
+
+1. Draw it on the same 24x24 grid, single path, no fill
+2. Add it to `corpus/icons.json`
+3. `npm run check:icons`
+
+Rules: **no fill, stroke only** (icons inherit colour through `currentColor`), keep the
+stroke weight consistent with the rest of the set, and never encode meaning in the icon
+alone — the heading beside it carries the meaning, which is why icons are `aria-hidden`.
+
+An icon name that does not exist renders the first letter of the item title instead. That
+is deliberate, so a typo degrades rather than breaking the page — but `check:icons` will
+still fail the build, so it should never reach a user.
 
 ---
 
@@ -261,12 +290,12 @@ way into an inaccessible site.
 ## Testing
 
 ```bash
-npm test                  # 26 unit tests
+npm test                  # 33 unit tests
 npm run audit:coverage    # all 160 block pages, both themes
 npm run verify            # everything
 ```
 
-Add a test when you change behaviour. The suite covers determinism, stack parity, no-JS
+Add a test when you change behaviour. The suite covers determinism, stack parity, icon rendering, shared-block consistency, no-JS
 integrity, external-request count, session migration and contrast safety.
 
 ---

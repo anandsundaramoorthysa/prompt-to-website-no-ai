@@ -36,27 +36,33 @@
     [
       {
         "title": "Personal service",
-        "body": "You talk to real people who know your account, not a ticket queue."
+        "body": "You talk to real people who know your account, not a ticket queue.",
+        "icon": "check"
       },
       {
         "title": "Transparent pricing",
-        "body": "No hidden fees, no lock-in contracts. Pay for what you use."
+        "body": "No hidden fees, no lock-in contracts. Pay for what you use.",
+        "icon": "star"
       },
       {
         "title": "Fast turnaround",
-        "body": "Most requests are handled within one working day."
+        "body": "Most requests are handled within one working day.",
+        "icon": "shield"
       },
       {
         "title": "Proven track record",
-        "body": "Trusted by over a thousand businesses since we started."
+        "body": "Trusted by over a thousand businesses since we started.",
+        "icon": "check"
       },
       {
         "title": "Flexible plans",
-        "body": "Scale up or down any time. No penalties for changing your mind."
+        "body": "Scale up or down any time. No penalties for changing your mind.",
+        "icon": "star"
       },
       {
         "title": "Quality guarantee",
-        "body": "If you are not satisfied, we will make it right or refund you."
+        "body": "If you are not satisfied, we will make it right or refund you.",
+        "icon": "shield"
       }
     ]
   ],
@@ -151,15 +157,18 @@
     [
       {
         "title": "Consulting",
-        "body": "We sit down with you, understand the problem, and map out a plan."
+        "body": "We sit down with you, understand the problem, and map out a plan.",
+        "icon": "check"
       },
       {
         "title": "Implementation",
-        "body": "We do the work, not just the strategy. Hands-on from start to finish."
+        "body": "We do the work, not just the strategy. Hands-on from start to finish.",
+        "icon": "clock"
       },
       {
         "title": "Ongoing support",
-        "body": "After delivery, we stay available. Problems do not keep office hours."
+        "body": "After delivery, we stay available. Problems do not keep office hours.",
+        "icon": "phone"
       }
     ]
   ],
@@ -215,20 +224,34 @@
       {
         "name": "Starter",
         "price": "Free",
-        "features": ["Core features", "Email support", "1 user"],
+        "features": [
+          "Core features",
+          "Email support",
+          "1 user"
+        ],
         "cta": "Get started"
       },
       {
         "name": "Professional",
         "price": "$49/mo",
-        "features": ["Everything in Starter", "Priority support", "5 users", "Analytics"],
+        "features": [
+          "Everything in Starter",
+          "Priority support",
+          "5 users",
+          "Analytics"
+        ],
         "cta": "Start free trial",
         "highlight": true
       },
       {
         "name": "Enterprise",
         "price": "Custom",
-        "features": ["Everything in Pro", "Dedicated manager", "Unlimited users", "SLA"],
+        "features": [
+          "Everything in Pro",
+          "Dedicated manager",
+          "Unlimited users",
+          "SLA"
+        ],
         "cta": "Contact us"
       }
     ]

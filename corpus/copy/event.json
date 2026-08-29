@@ -212,15 +212,18 @@
     [
       {
         "title": "Arrive",
-        "body": "Doors and coffee from nine. Badges are on the table, find your own."
+        "body": "Doors and coffee from nine. Badges are on the table, find your own.",
+        "icon": "pin"
       },
       {
         "title": "Listen",
-        "body": "Four talks before lunch, three after. Twenty-five minutes each, questions after."
+        "body": "Four talks before lunch, three after. Twenty-five minutes each, questions after.",
+        "icon": "chat"
       },
       {
         "title": "Argue",
-        "body": "A long lunch and a closing panel, which is where the useful bits happen."
+        "body": "A long lunch and a closing panel, which is where the useful bits happen.",
+        "icon": "users"
       }
     ]
   ]

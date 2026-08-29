@@ -265,27 +265,33 @@
     [
       {
         "title": "Human-grade ingredients",
-        "body": "Every ingredient is fit for human consumption before it goes into the recipe."
+        "body": "Every ingredient is fit for human consumption before it goes into the recipe.",
+        "icon": "heart"
       },
       {
         "title": "Vet-approved recipes",
-        "body": "Developed with veterinary nutritionists to meet FEDIAF guidelines."
+        "body": "Developed with veterinary nutritionists to meet FEDIAF guidelines.",
+        "icon": "leaf"
       },
       {
         "title": "No fillers or by-products",
-        "body": "No meat meal, no unnamed fats, no ingredient splitting."
+        "body": "No meat meal, no unnamed fats, no ingredient splitting.",
+        "icon": "truck"
       },
       {
         "title": "Small-batch cooked",
-        "body": "Slow-cooked in batches of two hundred kilograms or fewer."
+        "body": "Slow-cooked in batches of two hundred kilograms or fewer.",
+        "icon": "heart"
       },
       {
         "title": "Shipped fresh",
-        "body": "Chilled delivery so it arrives the way it left the kitchen."
+        "body": "Chilled delivery so it arrives the way it left the kitchen.",
+        "icon": "leaf"
       },
       {
         "title": "Thirty-day guarantee",
-        "body": "Full refund if your pet does not love it."
+        "body": "Full refund if your pet does not love it.",
+        "icon": "truck"
       }
     ]
   ],

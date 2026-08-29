@@ -29,6 +29,7 @@ export interface CorpusIndex {
   recipes: Record<string, Recipe>;
   copy: Record<string, Record<string, any>>;
   baseCss: string;
+  icons: { _viewBox: string; icons: Record<string, string> };
   lexicon: {
     siteTypes: Record<string, { label: string; terms: Record<string, number>; negative?: Record<string, number> }>;
     stacks: Record<Stack, string[]>;

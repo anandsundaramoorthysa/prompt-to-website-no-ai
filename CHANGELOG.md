@@ -2,6 +2,59 @@
 
 All notable changes to **Prompt to Website — No AI** are documented here.
 
+## 0.2.0
+
+### 🎨 Icons
+- **Inline SVG icon set** — 22 line icons held in `corpus/icons.json` and drawn into the
+  page, so generated sites keep the zero-external-request guarantee. No icon font, no CDN.
+- Icons inherit colour through `currentColor`, so they can never drift out of contrast
+  and never need a palette entry of their own
+- Copy banks name an icon per item (`"icon": "shield"`); `features-icon-grid` and
+  `services-cards-marked` now show real icons instead of a placeholder letter
+- **An unknown icon name falls back to a letter**, so a typo in a copy bank looks
+  deliberate rather than broken
+- New `check:icons` gate rejects any icon name a copy bank references but the set lacks
+
+### 🧭 Activity Bar
+- The extension now has a **sidebar icon and a Prompt stack view**, rather than living
+  only in the command palette
+- Each step is a row you can click to enable or disable; the site re-resolves immediately
+- Generate, Refine, Preview and Studio are available from the view title bar
+- Enabled and disabled steps differ by icon as well as colour
+
+### 🏗 Site types
+- **`pet-shop`** — 4-page recipe with an industry copy bank (products, testimonials,
+  nutrition FAQ)
+- **`business`** — generic 4-page recipe, now the fallback when no site type matches.
+  Previously unmatched prompts fell through to `agency`, which was chosen only because
+  it sorted first alphabetically
+- Expanded stopwords so ordinary English words are no longer reported as unrecognised
+
+### 🔍 Studio panel
+- **Word map** — colour-coded tags showing which prompt words mapped to which site type,
+  section, brand or stack, so the parser's decisions are visible rather than implied
+
+### 🐛 Fixes
+- **Shared blocks are identical on every page.** Recipes declare `nav` and `footer` as
+  shared, but nothing read that field: variant selection was salted by section index, and
+  the footer sits at a different index on each page, so a four-page site shipped three
+  different footers. Now salted by category name, with regression tests covering both
+  first generation and pages added later by refinement.
+- `npm run typecheck` compiles the corpus first, so it works on a fresh clone rather than
+  only after a full build. CI ordered typecheck before build and every error cascaded from
+  one missing generated module.
+- Form primitives (`.pw-form`, `.pw-input`, `.pw-label`) moved into the base layer. The
+  booking block silently depended on CSS belonging to the contact block and rendered
+  unstyled 21px inputs without it.
+
+### 🧪 Tests
+- 33 tests, up from 26: icon rendering and fallback, icon-name validation, shared-block
+  consistency, and external-request integrity with icons present
+
+### Thanks
+- Pet-shop and business site types, the word map and the expanded vocabulary contributed
+  by **Melvin Joshua** ([#1](https://github.com/anandsundaramoorthysa/prompt-to-website-no-ai/pull/1))
+
 ## 0.1.0
 
 First release.

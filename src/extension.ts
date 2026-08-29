@@ -5,8 +5,9 @@ import { compose, vendorFiles } from './compose/compose.js';
 import { planWrites, writeAll } from './write/writer.js';
 import { PreviewServer } from './preview/server.js';
 import { StudioPanel } from './panel/studio.js';
+import { StackView } from './panel/stackView.js';
 import { resolveSession } from './refine/resolve.js';
-import { loadSession, saveSession, newSession, addStep } from './refine/session.js';
+import { loadSession, saveSession, newSession, addStep, toggleStep } from './refine/session.js';
 import type { Session } from './refine/session.js';
 import { renderTokens } from './compose/tokens.js';
 import { applyAxes } from './compose/axes.js';
@@ -21,6 +22,7 @@ let status: vscode.StatusBarItem;
 let root: vscode.Uri | null = null;
 let session: Session | null = null;
 let extensionUri: vscode.Uri;
+let stackView: StackView;
 
 export async function activate(context: vscode.ExtensionContext): Promise<void> {
   extensionUri = context.extensionUri;
@@ -30,7 +32,15 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
   setStatus();
   status.show();
 
+  stackView = new StackView(() => session);
   context.subscriptions.push(
+    vscode.window.registerTreeDataProvider('promptToWebsite.stack', stackView),
+    vscode.commands.registerCommand('promptToWebsite.toggleStep', async (id: number) => {
+      if (!session || !root) return;
+      session = toggleStep(session, id);
+      await writeSite(false);
+      StudioPanel.current?.refresh();
+    }),
     status,
     vscode.commands.registerCommand('promptToWebsite.generate', generate),
     vscode.commands.registerCommand('promptToWebsite.refine', refine),
@@ -51,6 +61,7 @@ export async function activate(context: vscode.ExtensionContext): Promise<void> 
       root = folders[0].uri;
       session = existing;
       setStatus();
+      stackView.refresh();
     }
   }
 }
@@ -156,6 +167,7 @@ async function writeSite(confirmOverwrite: boolean): Promise<void> {
   await saveSession(root.fsPath, session);
   server.touch();
   setStatus();
+  stackView?.refresh();
 
   if (model.unknown.length) {
     void vscode.window.showWarningMessage(

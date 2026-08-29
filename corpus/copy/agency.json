@@ -63,29 +63,35 @@
     [
       {
         "title": "Brand",
-        "body": "Positioning, identity and the guidelines your team will actually use."
+        "body": "Positioning, identity and the guidelines your team will actually use.",
+        "icon": "tag"
       },
       {
         "title": "Product",
-        "body": "Research, interface design and prototypes you can test with real users."
+        "body": "Research, interface design and prototypes you can test with real users.",
+        "icon": "chat"
       },
       {
         "title": "Build",
-        "body": "Front-end delivery, accessible by default, handed over documented."
+        "body": "Front-end delivery, accessible by default, handed over documented.",
+        "icon": "wrench"
       }
     ],
     [
       {
         "title": "Discovery",
-        "body": "Two weeks to work out what is really being asked for, before anyone designs anything."
+        "body": "Two weeks to work out what is really being asked for, before anyone designs anything.",
+        "icon": "globe"
       },
       {
         "title": "Design",
-        "body": "Interface and identity work, reviewed with you weekly rather than revealed at the end."
+        "body": "Interface and identity work, reviewed with you weekly rather than revealed at the end.",
+        "icon": "star"
       },
       {
         "title": "Delivery",
-        "body": "We stay through launch. No handover cliff."
+        "body": "We stay through launch. No handover cliff.",
+        "icon": "check"
       }
     ]
   ],
@@ -239,15 +245,18 @@
     [
       {
         "title": "Discovery",
-        "body": "Two weeks working out what is actually being asked for, before anyone designs anything."
+        "body": "Two weeks working out what is actually being asked for, before anyone designs anything.",
+        "icon": "chat"
       },
       {
         "title": "Design",
-        "body": "Reviewed with you weekly rather than revealed at the end. No big unveilings."
+        "body": "Reviewed with you weekly rather than revealed at the end. No big unveilings.",
+        "icon": "star"
       },
       {
         "title": "Delivery",
-        "body": "We stay through launch and hand over documented. No cliff."
+        "body": "We stay through launch and hand over documented. No cliff.",
+        "icon": "truck"
       }
     ]
   ],

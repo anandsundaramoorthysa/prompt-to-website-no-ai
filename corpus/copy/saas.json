@@ -63,29 +63,35 @@
     [
       {
         "title": "Shared timelines",
-        "body": "One timeline everyone can read, updated as work moves."
+        "body": "One timeline everyone can read, updated as work moves.",
+        "icon": "chart"
       },
       {
         "title": "Honest status",
-        "body": "Progress comes from real activity, not from someone remembering to update a field."
+        "body": "Progress comes from real activity, not from someone remembering to update a field.",
+        "icon": "check"
       },
       {
         "title": "Quiet by default",
-        "body": "Notifications you actually want, batched so they never interrupt deep work."
+        "body": "Notifications you actually want, batched so they never interrupt deep work.",
+        "icon": "clock"
       }
     ],
     [
       {
         "title": "Plan in minutes",
-        "body": "Start from a template, adjust what matters, and get moving the same day."
+        "body": "Start from a template, adjust what matters, and get moving the same day.",
+        "icon": "bolt"
       },
       {
         "title": "See the blockers",
-        "body": "Stalled work surfaces itself instead of hiding at the bottom of a list."
+        "body": "Stalled work surfaces itself instead of hiding at the bottom of a list.",
+        "icon": "shield"
       },
       {
         "title": "Works with your stack",
-        "body": "Connects to the tools your team already uses, without a migration project."
+        "body": "Connects to the tools your team already uses, without a migration project.",
+        "icon": "globe"
       }
     ]
   ],
@@ -246,15 +252,18 @@
     [
       {
         "title": "Import a project",
-        "body": "Bring a spreadsheet or start from a template. Nothing to configure."
+        "body": "Bring a spreadsheet or start from a template. Nothing to configure.",
+        "icon": "box"
       },
       {
         "title": "Invite the team",
-        "body": "They see the same timeline you do, immediately."
+        "body": "They see the same timeline you do, immediately.",
+        "icon": "users"
       },
       {
         "title": "Stop reporting",
-        "body": "Progress updates itself from real activity."
+        "body": "Progress updates itself from real activity.",
+        "icon": "check"
       }
     ]
   ],

@@ -1,0 +1,28 @@
+{
+  "_note": "Inline SVG paths, drawn here rather than pulled from an icon font or a CDN, so generated sites keep the zero-external-request guarantee. Every icon is a 24x24 line drawing on the same grid with the same stroke weight, and inherits colour through currentColor. Referenced from copy banks as \"icon\": \"<name>\" and rendered by {{icon:...}}.",
+  "_viewBox": "0 0 24 24",
+  "icons": {
+    "check":    "M4 12.5l5 5L20 6.5",
+    "clock":    "M12 21a9 9 0 100-18 9 9 0 000 18zM12 7v5l3.5 2",
+    "shield":   "M12 21s7-3.5 7-9V6l-7-3-7 3v6c0 5.5 7 9 7 9z",
+    "bolt":     "M13 2L4 14h6l-1 8 9-12h-6l1-8z",
+    "heart":    "M12 20s-7-4.5-7-9.5A3.9 3.9 0 0112 8a3.9 3.9 0 017 2.5C19 15.5 12 20 12 20z",
+    "box":      "M3 8l9-5 9 5v8l-9 5-9-5V8zM3 8l9 5 9-5M12 13v8",
+    "chat":     "M4 5h16v11H9l-5 4V5z",
+    "chart":    "M4 20V10M10 20V4M16 20v-7M22 20H2",
+    "lock":     "M6 11h12v9H6v-9zM9 11V7.5a3 3 0 016 0V11",
+    "globe":    "M12 21a9 9 0 100-18 9 9 0 000 18zM3.5 9h17M3.5 15h17M12 3c4 4.5 4 13.5 0 18-4-4.5-4-13.5 0-18z",
+    "tag":      "M3 12l9-9 9 9-9 9-9-9zM8.5 8.5h.01",
+    "truck":    "M2 7h11v9H2V7zM13 10h4l3 3v3h-7v-6zM6 19a1.6 1.6 0 100-3.2A1.6 1.6 0 006 19zM17 19a1.6 1.6 0 100-3.2A1.6 1.6 0 0017 19z",
+    "wrench":   "M20 5.5a4.5 4.5 0 01-6 5.6L6 19a2 2 0 01-3-3l7.9-8a4.5 4.5 0 015.6-6L14 5l1.5 3.5L19 10l1-4.5z",
+    "users":    "M9 12a3.5 3.5 0 100-7 3.5 3.5 0 000 7zM3 20c0-3.3 2.7-5 6-5s6 1.7 6 5M17 7.5a3 3 0 010 6M18 20c0-2.5-1-4-2.5-4.6",
+    "leaf":     "M20 4C10 4 5 8 5 14a5 5 0 005 5c6 0 9-5 10-15zM8 18c2-4 5-7 9-9",
+    "star":     "M12 3.5l2.6 5.4 5.9.8-4.3 4.1 1 5.9-5.2-2.8-5.2 2.8 1-5.9-4.3-4.1 5.9-.8L12 3.5z",
+    "pin":      "M12 21s7-6.3 7-11a7 7 0 10-14 0c0 4.7 7 11 7 11zM12 12.5a2.5 2.5 0 100-5 2.5 2.5 0 000 5z",
+    "phone":    "M6 3h4l2 5-2.5 1.5a12 12 0 005 5L16 12l5 2v4a2 2 0 01-2.2 2A16.5 16.5 0 014 7.2 2 2 0 016 5V3z",
+    "mail":     "M3 6h18v12H3V6zM3 6l9 6.5L21 6",
+    "sun":      "M12 16.5a4.5 4.5 0 100-9 4.5 4.5 0 000 9zM12 2v2.5M12 19.5V22M2 12h2.5M19.5 12H22M5 5l1.8 1.8M17.2 17.2L19 19M19 5l-1.8 1.8M6.8 17.2L5 19",
+    "book":     "M4 4h11a3 3 0 013 3v13H7a3 3 0 01-3-3V4zM7 20a3 3 0 01-3-3",
+    "scissors": "M6.5 8a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM6.5 21a2.5 2.5 0 100-5 2.5 2.5 0 000 5zM8.6 9.6L19 19M8.6 14.4L19 5"
+  }
+}

@@ -293,3 +293,52 @@ test('a page added by refinement matches the existing shared blocks', () => {
   assert.equal(blog.variants.footer, before.plan.pages[0].variants.footer);
   assert.equal(blog.variants.nav, before.plan.pages[0].variants.nav);
 });
+
+/* ---------------- icons ---------------- */
+
+test('icon blocks render inline SVG, not letters', () => {
+  const block = CORPUS.blocks['features-icon-grid'];
+  const rows = CORPUS.copy.saas['features.items'][0];
+  for (const variant of ['bootstrap', 'vanilla']) {
+    const html = core.__renderForCoverage(block.variants[variant].html,
+      { heading: 'H', subheading: '', items: rows }, {});
+    assert.ok(html.includes('pw-icon__svg'), variant + ' should render an svg icon');
+    assert.equal((html.match(/pw-icon__svg/g) || []).length, rows.length);
+  }
+});
+
+test('an unknown icon name degrades to a letter, never an empty box', () => {
+  const out = core.__renderForCoverage('{{icon}}', { icon: 'not-a-real-icon', title: 'Quality' });
+  assert.ok(out.includes('pw-icon__glyph'));
+  assert.ok(out.includes('>Q<'), 'should fall back to the first letter of the title');
+});
+
+test('icons carry no colour of their own and stay decorative', () => {
+  const out = core.__renderForCoverage('{{icon:shield}}', {});
+  assert.ok(out.includes('stroke="currentColor"'), 'must inherit colour');
+  assert.ok(out.includes('aria-hidden="true"'), 'the adjacent heading carries the meaning');
+  assert.equal(out.match(/#[0-9a-fA-F]{3,8}/), null, 'no hardcoded colour');
+});
+
+test('every icon named in a copy bank exists', () => {
+  const known = new Set(Object.keys(CORPUS.icons.icons));
+  const bad = [];
+  const walk = (node, where) => {
+    if (Array.isArray(node)) return node.forEach((n, i) => walk(n, where + '[' + i + ']'));
+    if (node && typeof node === 'object') {
+      for (const [k, v] of Object.entries(node)) {
+        if (k === 'icon' && typeof v === 'string') { if (!known.has(v)) bad.push(where + ' -> ' + v); }
+        else walk(v, where + '.' + k);
+      }
+    }
+  };
+  for (const [bank, data] of Object.entries(CORPUS.copy)) walk(data, bank);
+  assert.deepEqual(bad, [], 'unknown icon names: ' + bad.join(', '));
+});
+
+test('generated sites still make no external request with icons present', () => {
+  const { files } = build('a site for a design agency called Fernway');
+  for (const f of files.filter((x) => x.path.endsWith('.html'))) {
+    assert.equal(f.content.match(/<(link|script)[^>]+https?:\/\//gi), null, f.path);
+  }
+});

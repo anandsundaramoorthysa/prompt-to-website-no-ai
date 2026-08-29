@@ -103,15 +103,23 @@ repositories, and GCC excludes LLM-derived contributions. Every site produced he
 ## ✨ Features
 
 ### 🧩 Deterministic Generation (No Model, No Network)
-- Hand-written lexicon across **6 site types** — SaaS, restaurant, portfolio, agency, conference, shop
+- Hand-written lexicon across **8 site types** — SaaS, restaurant, portfolio, agency,
+  conference, shop, pet shop, and a generic business fallback for everything else
 - Weighted scoring with negative terms, so *"a bakery site, no dashboards"* is not read as software
 - Unknown words are **reported, never guessed** — you always know what was ignored
+- A **word map** in the Studio panel shows which of your words mapped to what
 - Same prompt, same site, byte for byte, forever
 
 ### 🗂 80-Block Corpus
 - **80 blocks across 37 categories**, 23 of them with alternatives
 - Two markup variants each — Bootstrap and vanilla — from one shared manifest
 - Every block MIT-licensed, human-authored, with a dated accessibility review
+
+### 🖼 Icons Drawn, Not Downloaded
+- **22 inline SVG icons** held in the corpus and drawn into the page — no icon font, no CDN
+- They inherit colour from their surroundings, so they cannot drift out of contrast
+- A copy bank names an icon per item; an unknown name falls back to a letter rather than
+  leaving an empty box
 
 ### 🎨 Six Palettes, Four Style Axes
 - Palette, corner radius, spacing density and shadow depth, all driven from the prompt
@@ -222,6 +230,9 @@ Every refinement becomes a step in the stack, visible in the **Studio panel**.
 | `Prompt to Website: Re-theme` | Swap the palette across a generated site |
 | `Prompt to Website: Copy diagnostic report` | Redacted report for an issue. Nothing is sent |
 
+The **Activity Bar** carries a Prompt stack view: click a step to switch it off or on,
+with Generate, Refine, Preview and Studio in the view title bar.
+
 ---
 
 ## ⚙️ Settings
@@ -318,6 +329,7 @@ Useful scripts:
 | :--- | :--- |
 | `npm run new-block -- hero hero-centred "Centred"` | Scaffold a block, both variants + manifest |
 | `npm run check:tokens` | Reject raw colours, raw spacing, physical properties, `opacity` on text |
+| `npm run check:icons` | Reject any icon a copy bank names but the set lacks |
 | `npm run check:contrast` | Verify every token pair in both themes |
 | `npm run check:size` | Package-size budget against the 40 MB Marketplace cap |
 | `npm run audit:coverage` | Render all 160 block pages and audit every one |
@@ -381,7 +393,6 @@ No paid tier, no licence keys, no telemetry. Ever.
 Built with these excellent open-source projects:
 
 - [Bootstrap](https://github.com/twbs/bootstrap) — vendored for the default output stack
-- [compromise](https://github.com/spencermountain/compromise) — rule-based English parsing, no model files
 - [axe-core](https://github.com/dequelabs/axe-core) — the automated half of the accessibility gate
 - [Playwright](https://github.com/microsoft/playwright) — drives the browser checks axe cannot reach
 - [esbuild](https://github.com/evanw/esbuild) — single-file bundling, fast enough to forget about

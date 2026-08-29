@@ -162,15 +162,18 @@
     [
       {
         "title": "Free returns",
-        "body": "Thirty days, no questions asked"
+        "body": "Thirty days, no questions asked",
+        "icon": "truck"
       },
       {
         "title": "Plastic-free",
-        "body": "Paper, card and paper tape only"
+        "body": "Paper, card and paper tape only",
+        "icon": "leaf"
       },
       {
         "title": "Repairs",
-        "body": "Send it back and we will fix it"
+        "body": "Send it back and we will fix it",
+        "icon": "wrench"
       }
     ]
   ],
