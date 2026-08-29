@@ -1,0 +1,14 @@
+{
+  "id": "pet-shop", "label": "Pet Shop", "defaultTokens": "warm-editorial", "copyBank": "pet-shop",
+  "shared": ["nav", "footer"],
+  "pages": [
+    { "slug": "index", "title": "Home", "default": true,
+      "sections": ["nav", "hero", "features", "product-grid", "social-proof", "testimonials", "faq", "cta", "footer"] },
+    { "slug": "shop", "title": "Shop",
+      "sections": ["nav", "page-header", "product-grid", "shipping", "footer"] },
+    { "slug": "about", "title": "About",
+      "sections": ["nav", "page-header", "about-strip", "press", "footer"] },
+    { "slug": "contact", "title": "Contact",
+      "sections": ["nav", "page-header", "contact", "hours", "footer"] }
+  ]
+}

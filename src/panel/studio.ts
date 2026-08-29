@@ -127,6 +127,7 @@ export class StudioPanel {
         <dt>Pages</dt><dd>${pages}</dd>
       </dl>
       ${unknown}${notes}
+      ${this.wordMap(m)}
 
       <h2>Structure <small>home page</small></h2>
       <div class="strip">${blocks}</div>
@@ -190,6 +191,15 @@ export class StudioPanel {
   .stats { color: var(--vscode-descriptionForeground); font-size: 11px; }
   .claim { color: var(--vscode-descriptionForeground); font-size: 11px; margin-top: 10px; }
   code { font-family: var(--vscode-editor-font-family); }
+  .wmbox { display: flex; flex-wrap: wrap; gap: 6px; }
+  .wm { display: inline-flex; align-items: baseline; gap: 4px; padding: 2px 8px;
+         border-radius: 3px; font-family: var(--vscode-editor-font-family); font-size: 12px; }
+  .wm small { opacity: .7; font-size: 10px; }
+  .wm--type { background: var(--vscode-badge-background); color: var(--vscode-badge-foreground); }
+  .wm--section { background: #2d5a3d; color: #c8e6d0; }
+  .wm--stack { background: #5a4a2d; color: #e6dcc8; }
+  .wm--brand { background: #2d4a5a; color: #c8dce6; }
+  .wm--pages { background: #5a2d4a; color: #e6c8dc; }
   @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
 </style></head><body>
 ${inner}
@@ -212,6 +222,17 @@ ${inner}
     input.value = '';
   });
 </script></body></html>`;
+  }
+
+  private wordMap(m: SiteModel): string {
+    if (!m.claims || !m.claims.length) return '';
+    const kindLabel: Record<string, string> = {
+      type: 'site type', section: 'section', stack: 'stack', brand: 'brand', pages: 'page'
+    };
+    const tags = m.claims.map((c) =>
+      `<span class="wm wm--${esc(c.kind)}" title="${esc(kindLabel[c.kind] || c.kind)}: ${esc(c.value)}">${esc(c.text)} <small>&rarr; ${esc(c.value)}</small></span>`
+    ).join(' ');
+    return `<h2>Word map</h2><div class="wmbox">${tags}</div>`;
   }
 
   dispose(): void {

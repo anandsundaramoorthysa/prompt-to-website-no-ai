@@ -117,5 +117,51 @@
       "restaurant": -5,
       "conference": -6
     }
+  },
+  "pet-shop": {
+    "label": "Pet Shop",
+    "terms": {
+      "pet shop": 10,
+      "pet store": 10,
+      "pet food": 10,
+      "dog food": 10,
+      "cat food": 10,
+      "pet supplies": 9,
+      "dog treats": 9,
+      "cat treats": 9,
+      "pet": 7,
+      "pets": 7,
+      "dog": 7,
+      "dogs": 7,
+      "cat": 6,
+      "cats": 6,
+      "puppy": 8,
+      "kitten": 8,
+      "grooming": 7,
+      "veterinary": 6,
+      "animal": 5,
+      "kibble": 9,
+      "treats": 5
+    },
+    "negative": {
+      "saas": -8,
+      "restaurant": -6,
+      "conference": -6,
+      "portfolio": -6
+    }
+  },
+  "business": {
+    "label": "Business",
+    "terms": {
+      "business": 6,
+      "company": 6,
+      "startup": 4,
+      "brand": 4,
+      "service": 4,
+      "professional": 4,
+      "local business": 8,
+      "small business": 8
+    },
+    "negative": {}
   }
 }

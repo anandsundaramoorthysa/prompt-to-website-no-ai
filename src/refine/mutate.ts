@@ -21,6 +21,8 @@ export interface Axes {
 
 export const DEFAULT_AXES: Axes = { radius: 'soft', density: 'normal', elevation: 'subtle' };
 
+export interface ClaimSummary { text: string; kind: string; value: string; }
+
 export interface SiteModel {
   siteType: string;
   stack: Stack;
@@ -31,6 +33,7 @@ export interface SiteModel {
   seed: number;
   unknown: string[];
   notes: string[];
+  claims: ClaimSummary[];
 }
 
 const VERBS: Record<Exclude<Verb, null>, string[]> = {
