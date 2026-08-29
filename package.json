@@ -95,7 +95,7 @@
     "build:corpus": "node scripts/build-corpus.mjs",
     "build": "npm run vendor && npm run build:corpus && node esbuild.mjs",
     "watch": "npm run build:corpus && node esbuild.mjs --watch",
-    "typecheck": "tsc --noEmit",
+    "typecheck": "npm run build:corpus && tsc --noEmit",
     "test": "node --test test/",
     "check:size": "node scripts/check-size.mjs",
     "check:tokens": "node scripts/check-tokens.mjs",

@@ -17,11 +17,13 @@ jobs:
 
       - run: npm ci
 
-      - name: Typecheck
-        run: npm run typecheck
-
+      # Build first: the corpus is compiled into src/generated, which is not
+      # committed, so a fresh checkout has nothing for tsc to resolve.
       - name: Build (vendor Bootstrap, compile corpus, bundle)
         run: npm run build
+
+      - name: Typecheck
+        run: npm run typecheck
 
       - name: Token gate
         run: npm run check:tokens
