@@ -1,0 +1,103 @@
+name: CI
+
+on:
+  push:
+    branches: [main, master]
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+
+      - run: npm ci
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Build (vendor Bootstrap, compile corpus, bundle)
+        run: npm run build
+
+      - name: Token gate
+        run: npm run check:tokens
+
+      - name: Contrast gate
+        run: npm run check:contrast
+
+      - name: Package size budget
+        run: npm run check:size
+
+      - name: Tests
+        run: npm test
+
+      - name: Install Chromium for the accessibility audits
+        run: npx playwright install --with-deps chromium
+
+      - name: Accessibility — all 160 block pages, both themes
+        run: npm run audit:coverage
+
+      - name: Package VSIX
+        run: npx --yes @vscode/vsce package --no-dependencies
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: vsix
+          path: "*.vsix"
+          if-no-files-found: warn
+
+  determinism:
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+          cache: npm
+      - run: npm ci
+      - run: npm run build
+
+      # The central guarantee: the same prompt must produce the same bytes on
+      # every platform. A CRLF checkout or a stray timestamp breaks it silently.
+      - name: Same prompt, same bytes
+        shell: bash
+        run: |
+          node dist/cli.cjs "a landing page for a project management saas called Northwind" --out run-a
+          node dist/cli.cjs "a landing page for a project management saas called Northwind" --out run-b
+          A=$(node scripts/hashtree.mjs run-a)
+          B=$(node scripts/hashtree.mjs run-b)
+          echo "run-a: $A"
+          echo "run-b: $B"
+          echo "os:    ${{ matrix.os }}"
+          test "$A" = "$B" || { echo "Output is not deterministic on ${{ matrix.os }}"; exit 1; }
+          echo "$A" > hash-${{ matrix.os }}.txt
+
+      - uses: actions/upload-artifact@v4
+        with:
+          name: hash-${{ matrix.os }}
+          path: hash-${{ matrix.os }}.txt
+
+  cross-platform-hash:
+    needs: determinism
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: hash-*
+          merge-multiple: true
+
+      # LF and UTF-8-without-BOM enforcement means the hash must match across
+      # operating systems, not just across runs on one machine.
+      - name: Hashes agree across Linux, Windows and macOS
+        run: |
+          cat hash-*.txt
+          COUNT=$(sort -u hash-*.txt | wc -l)
+          test "$COUNT" -eq 1 || { echo "Platforms disagree — check line endings"; exit 1; }
+          echo "All platforms produced the same output."
