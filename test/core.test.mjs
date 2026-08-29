@@ -263,3 +263,33 @@ test('sessions pin the corpus version they were built against', () => {
   const s = newSession('a landing page for a saas', 'bootstrap');
   assert.equal(s.corpus, CORPUS.corpusHash);
 });
+
+/* ---------------- shared blocks ---------------- */
+
+test('shared blocks are identical on every page', () => {
+  // A site with three different footers is wrong. Recipes declare nav and
+  // footer as shared; variant selection used to salt by section index, which
+  // differs per page, so the footer changed as you navigated.
+  for (const prompt of [
+    'a 4 page site for a bakery called Sunrise with a menu page',
+    'a site for a design agency called Fernway',
+    'a conference site called Forge with a schedule'
+  ]) {
+    const { plan } = build(prompt);
+    const recipe = plan.recipe;
+    for (const cat of recipe.shared || []) {
+      const used = new Set(plan.pages.filter((p) => p.sections.includes(cat)).map((p) => p.variants[cat]));
+      assert.equal(used.size, 1,
+        prompt + ': "' + cat + '" resolved to ' + used.size + ' variants: ' + [...used].join(', '));
+    }
+  }
+});
+
+test('a page added by refinement matches the existing shared blocks', () => {
+  const before = build('a site for a design agency called Fernway');
+  const after = build('a site for a design agency called Fernway', 'bootstrap', ['add a blog page']);
+  const blog = after.plan.pages.find((p) => p.slug === 'blog');
+  assert.ok(blog, 'blog page should exist');
+  assert.equal(blog.variants.footer, before.plan.pages[0].variants.footer);
+  assert.equal(blog.variants.nav, before.plan.pages[0].variants.nav);
+});

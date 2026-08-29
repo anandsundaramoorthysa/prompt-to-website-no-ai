@@ -1,5 +1,5 @@
 import { CORPUS } from '../generated/corpus.js';
-import { pick } from '../hash.js';
+import { pick, saltFor } from '../hash.js';
 import type { ResolvedPage, Stack } from '../types.js';
 
 /**
@@ -142,12 +142,14 @@ function pageFor(slug: string, siteType: string, seed: number): ResolvedPage {
   for (const b of Object.values(CORPUS.blocks)) (available[b.category] ??= []).push(b.id);
   for (const k of Object.keys(available)) available[k].sort();
 
+  const shared = new Set(recipe.shared || []);
   const kept: string[] = [];
   const variants: Record<string, string> = {};
   for (const cat of sections) {
     if (!available[cat]?.length) continue;
     kept.push(cat);
-    variants[cat] = pick(available[cat], seed, kept.length);
+    // Shared blocks keep a stable salt so a page added later matches the rest.
+    variants[cat] = pick(available[cat], seed, shared.has(cat) ? saltFor(cat) : kept.length);
   }
   return { slug, title, sections: kept, variants };
 }
