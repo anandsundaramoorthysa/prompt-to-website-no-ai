@@ -4,7 +4,7 @@
   "description": "Production front-end sites from a prompt. No model, no API key, no network.",
   "version": "0.1.0",
   "license": "MIT",
-  "publisher": "anandsundaramoorthysa",
+  "publisher": "AnandSundaramoorthySa",
   "engines": {
     "vscode": "^1.85.0"
   },
@@ -134,5 +134,8 @@
   "galleryBanner": {
     "color": "#16292A",
     "theme": "dark"
+  },
+  "author": {
+    "name": "Anand Sundaramoorthy SA"
   }
 }
