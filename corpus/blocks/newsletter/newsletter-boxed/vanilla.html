@@ -1,0 +1,14 @@
+<section class="pw-newsb">
+  <div class="pw-container">
+    <div class="pw-newsb__box">
+      <h2 class="pw-newsb__title">{{heading}}</h2>
+      <p class="pw-newsb__sub">{{subheading}}</p>
+      <form class="pw-newsb__form" method="post" action="{{action}}">
+        <label class="pw-visually-hidden" for="pw-newsb-email">Email address</label>
+        <input class="pw-input pw-newsb__input" id="pw-newsb-email" name="email" type="email"
+               autocomplete="email" required placeholder="you@example.com">
+        <button class="pw-btn pw-btn--primary" type="submit">{{submit_label}}</button>
+      </form>
+    </div>
+  </div>
+</section>

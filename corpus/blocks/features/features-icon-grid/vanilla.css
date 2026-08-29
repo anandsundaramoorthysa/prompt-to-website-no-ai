@@ -1,0 +1,12 @@
+.pw-icons { padding-block: var(--pw-space-8); }
+.pw-icon { block-size: 100%; }
+.pw-icon__mark {
+  display: flex; align-items: center; justify-content: center;
+  inline-size: 40px; block-size: 40px; border-radius: var(--pw-radius-md);
+  background: var(--pw-color-hero-bg); color: var(--pw-color-primary);
+  font-family: var(--pw-font-display); font-weight: 700;
+  margin-block-end: var(--pw-space-3);
+}
+.pw-icon__title { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-2); }
+.pw-icon__body { color: var(--pw-color-muted); margin: 0; }

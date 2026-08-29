@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 128 128" width="128" height="128"
+     role="img" aria-label="Prompt to Website — No AI">
+  <title>Prompt to Website — No AI</title>
+  <defs>
+    <linearGradient id="badge" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#16292A"/>
+      <stop offset="1" stop-color="#0C1718"/>
+    </linearGradient>
+  </defs>
+
+  <!-- badge -->
+  <rect x="2" y="2" width="124" height="124" rx="29" fill="url(#badge)"/>
+  <rect x="2.75" y="2.75" width="122.5" height="122.5" rx="28.25"
+        fill="none" stroke="#4FB8B4" stroke-opacity=".22" stroke-width="1.5"/>
+
+  <!-- prompt caret -->
+  <path d="M34 47 L50 63.5 L34 80" fill="none" stroke="#4FB8B4"
+        stroke-width="7.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <!-- composed page: three blocks -->
+  <rect x="62" y="45"   width="38"   height="9" rx="2.5" fill="#F2F7F5"/>
+  <rect x="62" y="59"   width="38"   height="9" rx="2.5" fill="#4FB8B4"/>
+  <rect x="62" y="73"   width="24.5" height="9" rx="2.5" fill="#4FB8B4" fill-opacity=".55"/>
+</svg>

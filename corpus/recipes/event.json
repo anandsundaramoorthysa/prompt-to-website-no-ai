@@ -1,0 +1,14 @@
+{
+  "id": "event", "label": "Event", "defaultTokens": "bright-civic", "copyBank": "event",
+  "shared": ["nav", "footer"],
+  "pages": [
+    { "slug": "index", "title": "Home", "default": true,
+      "sections": ["nav", "hero", "schedule", "speakers", "cta", "footer"] },
+    { "slug": "schedule", "title": "Schedule",
+      "sections": ["nav", "page-header", "schedule", "footer"] },
+    { "slug": "speakers", "title": "Speakers",
+      "sections": ["nav", "page-header", "speakers", "footer"] },
+    { "slug": "contact", "title": "Contact",
+      "sections": ["nav", "page-header", "contact", "footer"] }
+  ]
+}

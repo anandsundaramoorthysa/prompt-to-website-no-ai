@@ -1,0 +1,18 @@
+<header class="pw-nav">
+  <nav class="pw-nav__inner pw-container" aria-label="Main">
+    <a class="pw-nav__brand" href="index.html">{{brand}}</a>
+    <input class="pw-nav__checkbox pw-visually-hidden" type="checkbox" id="pw-nav-toggle" aria-label="Menu">
+    <label class="pw-nav__burger" for="pw-nav-toggle">
+      <span class="pw-nav__burger-bar" aria-hidden="true"></span>
+      <span class="pw-visually-hidden">Menu</span>
+    </label>
+    <div class="pw-nav__panel">
+      <ul class="pw-nav__links">
+        <!-- pw:repeat links -->
+        <li><a class="pw-nav__link" href="{{href}}">{{label}}</a></li>
+        <!-- /pw:repeat -->
+      </ul>
+      <a class="pw-btn pw-btn--primary pw-nav__cta" href="#cta">{{cta_label}}</a>
+    </div>
+  </nav>
+</header>

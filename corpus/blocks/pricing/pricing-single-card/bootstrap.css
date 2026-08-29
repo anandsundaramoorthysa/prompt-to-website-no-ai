@@ -1,0 +1,12 @@
+.pw-price1 { padding-block: var(--pw-space-8); background: var(--pw-color-surface); }
+.pw-price1__card { max-inline-size: 26rem; margin-inline: auto; text-align: center;
+  border: 1px solid var(--pw-color-line); border-radius: var(--pw-radius-lg);
+  padding: var(--pw-space-6); background: var(--pw-color-bg); }
+.pw-price1__name { font-family: var(--pw-font-display); color: var(--pw-color-muted);
+  text-transform: uppercase; letter-spacing: .06em; font-size: .9375rem;
+  margin-block: 0 var(--pw-space-3); }
+.pw-price1__amount { font-family: var(--pw-font-display); font-size: 2.75rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-3);
+  font-variant-numeric: tabular-nums; }
+.pw-price1__period { font-size: 1rem; color: var(--pw-color-muted); }
+.pw-price1__note { color: var(--pw-color-muted); margin-block: 0 var(--pw-space-5); }

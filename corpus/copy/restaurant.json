@@ -1,0 +1,286 @@
+{
+  "industry": "restaurant",
+  "nav.cta_label": [
+    "Book a table",
+    "Reserve",
+    "Order online"
+  ],
+  "hero.heading": [
+    "Baked fresh, every morning",
+    "Slow food, done properly",
+    "A short menu, cooked well",
+    "Your corner table is ready"
+  ],
+  "hero.subheading": [
+    "Sourdough, pastries and coffee worth the walk.",
+    "Seasonal plates, a small wine list and no rush.",
+    "Everything made in-house, from the bread to the ice cream.",
+    "Open from seven, most days of the week."
+  ],
+  "hero.cta_primary": [
+    "Book a table",
+    "See the menu"
+  ],
+  "hero.cta_secondary": [
+    "Find us",
+    "Opening hours"
+  ],
+  "about-strip.heading": [
+    "Our story",
+    "How we got here",
+    "About the kitchen"
+  ],
+  "about-strip.body": [
+    "We started with one oven and a stubborn sourdough starter. Ten years later the starter is still going and so are we.",
+    "A small kitchen, a short menu and suppliers we actually know. Nothing arrives frozen and nothing sits under a lamp.",
+    "We cook the food we want to eat on a day off, and we serve it the way we would want it served."
+  ],
+  "menu-full.heading": [
+    "Our menu",
+    "What we are serving",
+    "Today's menu"
+  ],
+  "menu-full.courses": [
+    [
+      {
+        "course": "Breakfast",
+        "dish": "Sourdough toast, cultured butter, honey",
+        "price": "5.50",
+        "note": "Served until 11.30. Gluten-free bread on request."
+      },
+      {
+        "course": "Lunch",
+        "dish": "Soup of the day with yesterday's bread",
+        "price": "8.00",
+        "note": "Changes daily. Ask about the vegan option."
+      },
+      {
+        "course": "Sweet",
+        "dish": "Cardamom bun, baked twice",
+        "price": "4.20",
+        "note": "Usually gone by two o'clock."
+      }
+    ]
+  ],
+  "testimonials.heading": [
+    "What people say",
+    "From the guest book",
+    "Regulars on the record"
+  ],
+  "testimonials.quotes": [
+    [
+      {
+        "quote": "The cardamom buns are the reason I moved to this street. Only half joking.",
+        "name": "Marta",
+        "role": "regular since 2019"
+      },
+      {
+        "quote": "Small menu, everything on it good. That is rarer than it should be.",
+        "name": "Idris",
+        "role": "Saturday breakfast"
+      },
+      {
+        "quote": "They remembered my order on the second visit. I have been going ever since.",
+        "name": "Cara",
+        "role": "local"
+      }
+    ]
+  ],
+  "team.heading": [
+    "The kitchen",
+    "Who is cooking",
+    "Meet the team"
+  ],
+  "team.people": [
+    [
+      {
+        "initial": "S",
+        "name": "Sofia Marchetti",
+        "role": "Head baker"
+      },
+      {
+        "initial": "J",
+        "name": "Joel Adeyemi",
+        "role": "Kitchen"
+      },
+      {
+        "initial": "N",
+        "name": "Nadia Rahim",
+        "role": "Front of house"
+      }
+    ]
+  ],
+  "cta.heading": [
+    "Come and sit down",
+    "See you soon",
+    "Book a table"
+  ],
+  "cta.subheading": [
+    "Walk-ins welcome, but weekends fill up fast.",
+    "Open Tuesday to Sunday, seven until four.",
+    "Small groups only, so we can cook properly."
+  ],
+  "cta.cta_label": [
+    "Book a table",
+    "Find us"
+  ],
+  "contact.heading": [
+    "Find us",
+    "Get in touch",
+    "Bookings and enquiries"
+  ],
+  "contact.subheading": [
+    "For groups over six, please email rather than book online.",
+    "We answer messages between services."
+  ],
+  "contact.action": [
+    "#"
+  ],
+  "contact.submit_label": [
+    "Send enquiry"
+  ],
+  "faq.heading": [
+    "Good to know",
+    "Common questions"
+  ],
+  "faq.questions": [
+    [
+      {
+        "q": "Do you take bookings?",
+        "a": "Yes, for tables of two to six. Larger groups should email us directly."
+      },
+      {
+        "q": "Is there gluten-free bread?",
+        "a": "Every day, but in small quantities. Ask when you order."
+      },
+      {
+        "q": "Can I bring a dog?",
+        "a": "Well-behaved dogs are welcome downstairs and in the courtyard."
+      }
+    ]
+  ],
+  "page-header.subheading": [
+    "",
+    "Updated weekly."
+  ],
+  "hours.heading": [
+    "Opening hours",
+    "When we are open"
+  ],
+  "hours.subheading": [
+    "Kitchen closes half an hour before we do.",
+    "Closed Mondays, and the week after Christmas."
+  ],
+  "hours.days": [
+    [
+      {
+        "day": "Tuesday to Thursday",
+        "time": "07:00 – 16:00"
+      },
+      {
+        "day": "Friday",
+        "time": "07:00 – 22:00"
+      },
+      {
+        "day": "Saturday",
+        "time": "08:00 – 22:00"
+      },
+      {
+        "day": "Sunday",
+        "time": "09:00 – 15:00"
+      },
+      {
+        "day": "Monday",
+        "time": "Closed"
+      }
+    ]
+  ],
+  "location.heading": [
+    "Find us",
+    "Where we are"
+  ],
+  "location.address": [
+    "14 Print Hall Lane\nOld Quarter\nBristol BS1 4QT"
+  ],
+  "location.travel": [
+    "Five minutes from the station, on the left past the bridge. Two step-free entrances; the courtyard one is widest."
+  ],
+  "location.links_out": [
+    [
+      {
+        "label": "Get directions",
+        "href": "#"
+      },
+      {
+        "label": "Accessibility notes",
+        "href": "#"
+      }
+    ]
+  ],
+  "booking.heading": [
+    "Book a table",
+    "Reserve"
+  ],
+  "booking.subheading": [
+    "Tables of two to six. For larger groups, email us instead.",
+    "We hold bookings for fifteen minutes."
+  ],
+  "booking.action": [
+    "#"
+  ],
+  "booking.submit_label": [
+    "Request a table"
+  ],
+  "gallery.heading": [
+    "The room",
+    "A look inside"
+  ],
+  "gallery.items": [
+    [
+      {
+        "caption": "The counter, first thing"
+      },
+      {
+        "caption": "Courtyard in summer"
+      },
+      {
+        "caption": "Saturday service"
+      },
+      {
+        "caption": "The oven"
+      }
+    ]
+  ],
+  "menu-preview.heading": [
+    "From the menu",
+    "A few favourites"
+  ],
+  "menu-preview.subheading": [
+    "Changes with whatever arrives that morning."
+  ],
+  "menu-preview.items": [
+    [
+      {
+        "dish": "Cardamom bun",
+        "price": "4.20",
+        "note": "Baked twice, usually gone by two"
+      },
+      {
+        "dish": "Soup of the day",
+        "price": "8.00",
+        "note": "Served with bread from the day before"
+      },
+      {
+        "dish": "Sourdough toast",
+        "price": "5.50",
+        "note": "Cultured butter and honey"
+      }
+    ]
+  ],
+  "quote-strip.quote": [
+    "The cardamom buns are the reason I moved to this street."
+  ],
+  "quote-strip.source": [
+    "Marta, regular since 2019"
+  ]
+}

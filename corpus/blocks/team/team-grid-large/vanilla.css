@@ -1,0 +1,10 @@
+.pw-teaml { padding-block: var(--pw-space-8); }
+.pw-teaml__list { list-style: none; margin: 0; padding: 0; text-align: center; }
+.pw-teaml__mark { inline-size: 72px; block-size: 72px; border-radius: var(--pw-radius-md);
+  background: var(--pw-color-hero-bg); color: var(--pw-color-primary);
+  font-family: var(--pw-font-display); font-size: 1.75rem; font-weight: 700;
+  display: flex; align-items: center; justify-content: center;
+  margin: 0 auto var(--pw-space-3); }
+.pw-teaml__name { font-family: var(--pw-font-display); font-size: 1rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-1); }
+.pw-teaml__role { color: var(--pw-color-muted); font-size: .875rem; margin: 0; }

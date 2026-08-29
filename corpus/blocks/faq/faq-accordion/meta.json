@@ -1,0 +1,57 @@
+{
+  "id": "faq-accordion",
+  "category": "faq",
+  "label": "Accordion",
+  "tags": [
+    "saas",
+    "support"
+  ],
+  "weight": 10,
+  "slots": {
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "questions": {
+      "type": "list",
+      "min": 3,
+      "max": 10
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true,
+      "js": null
+    },
+    "vanilla": {
+      "available": true,
+      "nojs_fallback": "details-summary"
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [
+    "faq-two-column"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "n/a",
+      "dragging": "n/a",
+      "reflow": "single column",
+      "date": "2026-08-18",
+      "by": "human"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

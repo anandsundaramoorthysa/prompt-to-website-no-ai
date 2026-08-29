@@ -1,0 +1,7 @@
+.pw-heroc { background: var(--pw-color-hero-bg); padding-block: var(--pw-space-8); text-align: center; }
+.pw-heroc__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: clamp(2.125rem, 5.5vw, 3.5rem); line-height: 1.08;
+  margin-block: 0 var(--pw-space-4); text-wrap: balance; max-inline-size: 18ch; margin-inline: auto; }
+.pw-heroc__sub { color: var(--pw-color-muted); font-size: 1.125rem;
+  max-inline-size: 52ch; margin-inline: auto; margin-block: 0 var(--pw-space-6); }
+.pw-heroc__actions { display: flex; flex-wrap: wrap; gap: var(--pw-space-3); justify-content: center; }

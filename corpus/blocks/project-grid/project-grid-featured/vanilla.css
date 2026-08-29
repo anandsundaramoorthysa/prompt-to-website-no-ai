@@ -1,0 +1,7 @@
+.pw-projf { padding-block: var(--pw-space-8); }
+.pw-projf__list { list-style: none; margin: 0; padding: 0; }
+.pw-projf__item .pw-tile { inline-size: 100%; block-size: auto;
+  border-radius: var(--pw-radius-lg); display: block; }
+.pw-projf__title { font-family: var(--pw-font-display); font-size: 1.25rem;
+  color: var(--pw-color-ink); margin-block: var(--pw-space-3) var(--pw-space-1); }
+.pw-projf__meta { color: var(--pw-color-muted); margin: 0; }

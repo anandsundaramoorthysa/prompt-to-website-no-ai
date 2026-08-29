@@ -1,0 +1,5 @@
+.pw-cta { padding-block: var(--pw-space-8); background: var(--pw-color-primary); text-align: center; }
+.pw-cta__title { font-family: var(--pw-font-display); color: var(--pw-color-primary-ink);
+  font-size: clamp(1.5rem, 3vw, 2.125rem); margin-block-end: var(--pw-space-3); text-wrap: balance; }
+.pw-cta__sub { color: var(--pw-color-primary-ink); opacity: .85; margin-block-end: var(--pw-space-5);
+  max-inline-size: 52ch; margin-inline: auto; }

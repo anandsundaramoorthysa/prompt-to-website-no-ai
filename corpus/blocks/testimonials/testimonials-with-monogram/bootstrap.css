@@ -1,0 +1,12 @@
+.pw-quotem { padding-block: var(--pw-space-8); }
+.pw-quotem__fig { margin: 0; background: var(--pw-color-surface);
+  border: 1px solid var(--pw-color-line); border-radius: var(--pw-radius-md);
+  padding: var(--pw-space-5); block-size: 100%; }
+.pw-quotem__text { margin: 0 0 var(--pw-space-4); }
+.pw-quotem__text p { margin: 0; color: var(--pw-color-ink); font-size: 1.0625rem; }
+.pw-quotem__by { display: flex; align-items: center; gap: var(--pw-space-3);
+  color: var(--pw-color-muted); font-size: .9375rem; }
+.pw-quotem__mark { inline-size: 36px; block-size: 36px; border-radius: 50%; flex: none;
+  background: var(--pw-color-hero-bg); color: var(--pw-color-primary);
+  font-family: var(--pw-font-display); font-weight: 700;
+  display: flex; align-items: center; justify-content: center; }

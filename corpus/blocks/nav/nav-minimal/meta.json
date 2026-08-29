@@ -1,0 +1,57 @@
+{
+  "id": "nav-minimal",
+  "category": "nav",
+  "label": "Minimal",
+  "tags": [
+    "portfolio"
+  ],
+  "weight": 10,
+  "slots": {
+    "brand": {
+      "type": "text",
+      "required": true
+    },
+    "links": {
+      "type": "list",
+      "min": 2,
+      "max": 5
+    },
+    "cta_label": {
+      "type": "text"
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true
+    },
+    "vanilla": {
+      "available": true
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [
+    "nav-sticky-simple"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "not sticky — no obscuring surface",
+      "dragging": "n/a — no drag interaction",
+      "reflow": "verified at 320px by scripts/audit-manual.mjs",
+      "date": "2026-08-18",
+      "by": "human + audit-manual.mjs"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

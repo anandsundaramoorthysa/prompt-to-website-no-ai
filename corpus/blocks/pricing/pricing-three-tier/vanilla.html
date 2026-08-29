@@ -1,0 +1,16 @@
+<section class="pw-pricing" id="pricing">
+  <div class="pw-container">
+    <h2 class="pw-section__title">{{heading}}</h2>
+    <p class="pw-section__sub">{{subheading}}</p>
+    <div class="pw-grid pw-grid--3">
+      <!-- pw:repeat tiers -->
+      <article class="pw-tier">
+        <h3 class="pw-tier__name">{{name}}</h3>
+        <p class="pw-tier__price"><span class="pw-tier__amount">{{price}}</span> {{period}}</p>
+        <p class="pw-tier__note">{{note}}</p>
+        <a class="pw-btn pw-btn--primary pw-tier__cta" href="#cta">{{cta_label}}</a>
+      </article>
+      <!-- /pw:repeat -->
+    </div>
+  </div>
+</section>

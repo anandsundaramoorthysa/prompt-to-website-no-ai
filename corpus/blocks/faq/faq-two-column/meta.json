@@ -1,0 +1,56 @@
+{
+  "id": "faq-two-column",
+  "category": "faq",
+  "label": "Two column",
+  "tags": [
+    "saas",
+    "agency"
+  ],
+  "weight": 10,
+  "slots": {
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "questions": {
+      "type": "list",
+      "min": 2,
+      "max": 8
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true
+    },
+    "vanilla": {
+      "available": true,
+      "nojs_fallback": "static-list"
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [
+    "faq-accordion"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "verified by scripts/audit-manual.mjs",
+      "dragging": "n/a — no drag interaction",
+      "reflow": "verified at 320px by scripts/audit-manual.mjs",
+      "date": "2026-08-18",
+      "by": "human + audit-manual.mjs"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

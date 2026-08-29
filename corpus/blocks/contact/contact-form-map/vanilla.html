@@ -1,0 +1,31 @@
+<section class="pw-contactd" id="contact">
+  <div class="pw-container pw-contactd__grid">
+    <div>
+      <h2 class="pw-contactd__title">{{heading}}</h2>
+      <p class="pw-contactd__sub">{{subheading}}</p>
+      <dl class="pw-contactd__details">
+        <!-- pw:repeat details -->
+        <div class="pw-contactd__row">
+          <dt class="pw-contactd__key">{{key}}</dt>
+          <dd class="pw-contactd__val">{{value}}</dd>
+        </div>
+        <!-- /pw:repeat -->
+      </dl>
+    </div>
+    <form class="pw-form" method="post" action="{{action}}">
+      <div class="pw-field">
+        <label class="pw-label" for="pw-cd-name">Your name</label>
+        <input class="pw-input" type="text" id="pw-cd-name" name="name" autocomplete="name" required>
+      </div>
+      <div class="pw-field">
+        <label class="pw-label" for="pw-cd-email">Email</label>
+        <input class="pw-input" type="email" id="pw-cd-email" name="email" autocomplete="email" required>
+      </div>
+      <div class="pw-field">
+        <label class="pw-label" for="pw-cd-msg">Message</label>
+        <textarea class="pw-input" id="pw-cd-msg" name="message" rows="4" required></textarea>
+      </div>
+      <button class="pw-btn pw-btn--primary" type="submit">{{submit_label}}</button>
+    </form>
+  </div>
+</section>

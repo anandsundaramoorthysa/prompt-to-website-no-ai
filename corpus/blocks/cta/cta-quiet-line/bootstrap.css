@@ -1,0 +1,8 @@
+.pw-ctaq { padding-block: var(--pw-space-8); border-block-start: 1px solid var(--pw-color-line); }
+.pw-ctaq__inner { text-align: center; max-inline-size: 46ch; margin-inline: auto; }
+.pw-ctaq__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: clamp(1.375rem, 2.8vw, 1.875rem); margin-block: 0 var(--pw-space-2); text-wrap: balance; }
+.pw-ctaq__sub { color: var(--pw-color-muted); margin-block: 0 var(--pw-space-4); }
+.pw-ctaq__link { color: var(--pw-color-primary); font-weight: 600;
+  min-block-size: var(--pw-target-min); display: inline-flex; align-items: center;
+  padding-inline: var(--pw-space-2); }

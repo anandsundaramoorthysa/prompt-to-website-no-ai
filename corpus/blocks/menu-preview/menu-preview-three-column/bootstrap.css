@@ -1,0 +1,7 @@
+.pw-menup { padding-block: var(--pw-space-8); }
+.pw-menup__item { text-align: center; }
+.pw-menup__dish { font-family: var(--pw-font-display); font-size: 1.125rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-1); }
+.pw-menup__price { color: var(--pw-color-primary); font-weight: 600;
+  font-variant-numeric: tabular-nums; margin-block: 0 var(--pw-space-2); }
+.pw-menup__note { color: var(--pw-color-muted); margin: 0; font-size: .9375rem; }

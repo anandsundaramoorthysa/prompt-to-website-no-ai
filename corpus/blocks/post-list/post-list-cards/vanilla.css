@@ -1,0 +1,7 @@
+.pw-posts { padding-block: var(--pw-space-8); }
+.pw-posts__list { list-style: none; margin: 0; padding: 0; }
+.pw-post { border-block-start: 2px solid var(--pw-color-line); padding-block-start: var(--pw-space-3); }
+.pw-post__date { color: var(--pw-color-muted); font-size: .875rem; margin-block: 0 var(--pw-space-2); }
+.pw-post__title { font-family: var(--pw-font-display); font-size: 1.125rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-2); }
+.pw-post__excerpt { color: var(--pw-color-muted); margin: 0; }

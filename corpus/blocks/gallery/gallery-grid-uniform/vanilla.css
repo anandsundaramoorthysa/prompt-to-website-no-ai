@@ -1,0 +1,6 @@
+.pw-gallery { padding-block: var(--pw-space-8); }
+.pw-gallery__list { list-style: none; margin: 0; padding: 0; }
+.pw-gallery__item .pw-tile { inline-size: 100%; block-size: auto;
+  border-radius: var(--pw-radius-md); display: block; }
+.pw-gallery__caption { color: var(--pw-color-muted); font-size: .9375rem;
+  margin-block: var(--pw-space-2) 0; }

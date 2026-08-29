@@ -1,0 +1,10 @@
+.pw-time { padding-block: var(--pw-space-8); }
+.pw-time__list { list-style: none; margin: 0; padding: 0;
+  max-inline-size: 44rem; margin-inline: auto;
+  border-inline-start: 2px solid var(--pw-color-line); }
+.pw-time__entry { padding-inline-start: var(--pw-space-5); padding-block-end: var(--pw-space-6); }
+.pw-time__year { color: var(--pw-color-primary); font-family: var(--pw-font-display);
+  font-weight: 700; margin-block: 0 var(--pw-space-1); font-variant-numeric: tabular-nums; }
+.pw-time__title { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-1); }
+.pw-time__body { color: var(--pw-color-muted); margin: 0; }

@@ -1,0 +1,9 @@
+.pw-shop { padding-block: var(--pw-space-8); }
+.pw-shop__list { list-style: none; margin: 0; padding: 0; }
+.pw-product .pw-tile { inline-size: 100%; block-size: auto;
+  border-radius: var(--pw-radius-md); display: block; }
+.pw-product__name { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: var(--pw-space-3) var(--pw-space-1); }
+.pw-product__price { color: var(--pw-color-primary); font-weight: 600;
+  font-variant-numeric: tabular-nums; margin-block: 0 var(--pw-space-1); }
+.pw-product__note { color: var(--pw-color-muted); font-size: .9375rem; margin: 0; }

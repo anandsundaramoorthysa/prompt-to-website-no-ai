@@ -1,0 +1,13 @@
+.pw-menu { padding-block: var(--pw-space-8); }
+.pw-menu__course { max-inline-size: 46rem; margin-inline: auto;
+  margin-block-end: var(--pw-space-6); }
+.pw-menu__course-name { font-family: var(--pw-font-display); color: var(--pw-color-primary);
+  font-size: 1.125rem; text-transform: uppercase; letter-spacing: .06em;
+  margin-block: 0 var(--pw-space-3); }
+.pw-menu__items { margin: 0; }
+.pw-menu__row { display: flex; justify-content: space-between; gap: var(--pw-space-4);
+  padding-block: var(--pw-space-2); border-block-end: 1px solid var(--pw-color-line); }
+.pw-menu__dish { color: var(--pw-color-ink); font-weight: 600; }
+.pw-menu__price { margin: 0; color: var(--pw-color-muted); font-variant-numeric: tabular-nums; }
+.pw-menu__note { color: var(--pw-color-muted); font-size: .9375rem;
+  margin-block: var(--pw-space-3) 0; }

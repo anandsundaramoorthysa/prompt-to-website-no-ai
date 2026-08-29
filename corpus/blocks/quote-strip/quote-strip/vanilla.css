@@ -1,0 +1,6 @@
+.pw-qstrip { padding-block: var(--pw-space-7); background: var(--pw-color-hero-bg); }
+.pw-qstrip__fig { margin: 0; text-align: center; max-inline-size: 48ch; margin-inline: auto; }
+.pw-qstrip__text { margin: 0 0 var(--pw-space-2); }
+.pw-qstrip__text p { margin: 0; font-family: var(--pw-font-display);
+  font-size: clamp(1.125rem, 2.2vw, 1.5rem); color: var(--pw-color-ink); text-wrap: balance; }
+.pw-qstrip__src { color: var(--pw-color-muted); font-size: .9375rem; }

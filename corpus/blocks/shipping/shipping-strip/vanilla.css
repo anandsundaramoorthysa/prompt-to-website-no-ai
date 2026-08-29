@@ -1,0 +1,6 @@
+.pw-ship { padding-block: var(--pw-space-6); background: var(--pw-color-hero-bg); }
+.pw-ship__list { list-style: none; margin: 0; padding: 0; display: flex;
+  flex-wrap: wrap; justify-content: center; gap: var(--pw-space-6); text-align: center; }
+.pw-ship__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-weight: 600; margin-block: 0 var(--pw-space-1); }
+.pw-ship__body { color: var(--pw-color-muted); margin: 0; font-size: .9375rem; }

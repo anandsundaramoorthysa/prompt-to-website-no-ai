@@ -1,0 +1,6 @@
+.pw-quotes { padding-block: var(--pw-space-8); background: var(--pw-color-surface); }
+.pw-quote { margin: 0; background: var(--pw-color-bg); border: 1px solid var(--pw-color-line);
+  border-radius: var(--pw-radius-md); padding: var(--pw-space-5); block-size: 100%; }
+.pw-quote__text { margin-block: 0 var(--pw-space-3); color: var(--pw-color-ink); }
+.pw-quote__text p { margin: 0; }
+.pw-quote__by { color: var(--pw-color-muted); font-size: .9375rem; }

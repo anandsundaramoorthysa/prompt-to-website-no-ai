@@ -1,0 +1,16 @@
+<section class="pw-shop" id="shop">
+  <div class="container">
+    <h2 class="pw-section__title">{{heading}}</h2>
+    <p class="pw-section__sub">{{subheading}}</p>
+    <ul class="pw-shop__list row g-4">
+      <!-- pw:repeat items -->
+      <li class="col-md-4 pw-product">
+        {{asset:tile}}
+        <h3 class="pw-product__name">{{name}}</h3>
+        <p class="pw-product__price">{{price}}</p>
+        <p class="pw-product__note">{{note}}</p>
+      </li>
+      <!-- /pw:repeat -->
+    </ul>
+  </div>
+</section>

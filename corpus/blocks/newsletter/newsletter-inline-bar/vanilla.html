@@ -1,0 +1,14 @@
+<section class="pw-news">
+  <div class="pw-container pw-news__inner">
+    <div>
+      <h2 class="pw-news__title">{{heading}}</h2>
+      <p class="pw-news__sub">{{subheading}}</p>
+    </div>
+    <form class="pw-news__form" method="post" action="{{action}}">
+      <label class="pw-visually-hidden" for="pw-news-email">Email address</label>
+      <input class="pw-input pw-news__input" id="pw-news-email" name="email"
+             type="email" autocomplete="email" required placeholder="you@example.com">
+      <button class="pw-btn pw-btn--primary" type="submit">{{submit_label}}</button>
+    </form>
+  </div>
+</section>

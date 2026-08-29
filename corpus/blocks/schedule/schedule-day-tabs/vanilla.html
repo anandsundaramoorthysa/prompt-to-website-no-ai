@@ -1,0 +1,17 @@
+<section class="pw-tabs" id="schedule">
+  <div class="pw-container">
+    <h2 class="pw-section__title">{{heading}}</h2>
+    <p class="pw-section__sub">{{subheading}}</p>
+    <ol class="pw-tabs__list">
+      <!-- pw:repeat slots_list -->
+      <li class="pw-tabs__row">
+        <p class="pw-tabs__time"><time>{{time}}</time></p>
+        <div>
+          <h3 class="pw-tabs__title">{{title}}</h3>
+          <p class="pw-tabs__who">{{who}}</p>
+        </div>
+      </li>
+      <!-- /pw:repeat -->
+    </ol>
+  </div>
+</section>

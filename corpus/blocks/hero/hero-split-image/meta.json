@@ -1,0 +1,64 @@
+{
+  "id": "hero-split-image",
+  "category": "hero",
+  "label": "Split with image",
+  "tags": [
+    "saas",
+    "marketing"
+  ],
+  "weight": 10,
+  "slots": {
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "subheading": {
+      "type": "text",
+      "required": true
+    },
+    "cta_primary": {
+      "type": "text",
+      "default": "Start free"
+    },
+    "cta_secondary": {
+      "type": "text",
+      "default": "See how it works"
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true
+    },
+    "vanilla": {
+      "available": true
+    }
+  },
+  "assets": [
+    "hero-gradient"
+  ],
+  "insertable": true,
+  "conflicts": [
+    "hero-centered-minimal"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "n/a",
+      "dragging": "n/a",
+      "reflow": "stacks at md",
+      "date": "2026-08-18",
+      "by": "human"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

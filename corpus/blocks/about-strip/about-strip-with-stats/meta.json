@@ -1,0 +1,59 @@
+{
+  "id": "about-strip-with-stats",
+  "category": "about-strip",
+  "label": "With figures",
+  "tags": [
+    "agency",
+    "shop"
+  ],
+  "weight": 10,
+  "slots": {
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "body": {
+      "type": "text",
+      "required": true
+    },
+    "stats": {
+      "type": "list",
+      "min": 2,
+      "max": 4
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true
+    },
+    "vanilla": {
+      "available": true
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [
+    "about-strip-image-text"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "verified by scripts/audit-manual.mjs",
+      "dragging": "n/a — no drag interaction",
+      "reflow": "verified at 320px by scripts/audit-manual.mjs",
+      "date": "2026-08-18",
+      "by": "human + audit-manual.mjs"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

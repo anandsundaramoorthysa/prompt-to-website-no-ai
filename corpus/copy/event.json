@@ -1,0 +1,227 @@
+{
+  "industry": "event",
+  "nav.cta_label": [
+    "Get tickets",
+    "Register",
+    "Book a place"
+  ],
+  "hero.heading": [
+    "One day, eight talks, no filler",
+    "The conference for people who build",
+    "A day away from the backlog",
+    "Practitioners only. No keynotes for hire."
+  ],
+  "hero.subheading": [
+    "A single track, deliberately. Everyone sees the same talks and argues about them afterwards.",
+    "Two hundred people, one room, and a long lunch on purpose.",
+    "Talks from people currently doing the work, not people who did it in 2015.",
+    "Friday 14 November, in the old print hall."
+  ],
+  "hero.cta_primary": [
+    "Get tickets",
+    "Register now"
+  ],
+  "hero.cta_secondary": [
+    "See the schedule",
+    "Who is speaking"
+  ],
+  "schedule.heading": [
+    "The day",
+    "Schedule",
+    "What happens when"
+  ],
+  "schedule.subheading": [
+    "Single track. Doors at half past eight.",
+    "Times are approximate after lunch, honestly."
+  ],
+  "schedule.slots_list": [
+    [
+      {
+        "time": "09:00",
+        "title": "Doors and coffee",
+        "who": "Ground floor"
+      },
+      {
+        "time": "09:45",
+        "title": "What we got wrong about scale",
+        "who": "Priya Nair"
+      },
+      {
+        "time": "10:40",
+        "title": "Shipping without a roadmap",
+        "who": "Tom Abbott"
+      },
+      {
+        "time": "11:30",
+        "title": "Break",
+        "who": "Courtyard"
+      },
+      {
+        "time": "12:00",
+        "title": "Designing for the second year",
+        "who": "Lena Kovac"
+      },
+      {
+        "time": "13:00",
+        "title": "Long lunch",
+        "who": "On purpose"
+      },
+      {
+        "time": "14:30",
+        "title": "The cost of a rewrite",
+        "who": "Idris Bello"
+      },
+      {
+        "time": "16:00",
+        "title": "Closing panel",
+        "who": "Everyone"
+      }
+    ]
+  ],
+  "speakers.heading": [
+    "Speakers",
+    "Who is talking",
+    "This year's line-up"
+  ],
+  "speakers.people": [
+    [
+      {
+        "initial": "P",
+        "name": "Priya Nair",
+        "role": "Platform lead",
+        "topic": "What we got wrong about scale"
+      },
+      {
+        "initial": "T",
+        "name": "Tom Abbott",
+        "role": "Engineering manager",
+        "topic": "Shipping without a roadmap"
+      },
+      {
+        "initial": "L",
+        "name": "Lena Kovac",
+        "role": "Design director",
+        "topic": "Designing for the second year"
+      },
+      {
+        "initial": "I",
+        "name": "Idris Bello",
+        "role": "Principal engineer",
+        "topic": "The cost of a rewrite"
+      }
+    ]
+  ],
+  "cta.heading": [
+    "Tickets are open",
+    "Come along",
+    "Join us in November"
+  ],
+  "cta.subheading": [
+    "Early tickets are cheaper and there are not many.",
+    "Student and community rates available — just ask."
+  ],
+  "cta.cta_label": [
+    "Get tickets",
+    "Register"
+  ],
+  "contact.heading": [
+    "Questions",
+    "Get in touch"
+  ],
+  "contact.subheading": [
+    "Accessibility requirements, invoicing, group rates — ask us anything.",
+    "We answer within a day."
+  ],
+  "contact.action": [
+    "#"
+  ],
+  "contact.submit_label": [
+    "Send message"
+  ],
+  "about-strip.heading": [
+    "Why we run this",
+    "About the day"
+  ],
+  "about-strip.body": [
+    "We wanted a conference where the talks were chosen for what they teach rather than who is sponsoring.",
+    "Run at cost by four volunteers. Any surplus pays for next year's student tickets."
+  ],
+  "page-header.subheading": [
+    "",
+    "Single track, one room."
+  ],
+  "tickets.heading": [
+    "Tickets",
+    "Book a place"
+  ],
+  "tickets.subheading": [
+    "Early tickets are cheaper and there are not many.",
+    "All tickets include lunch and coffee."
+  ],
+  "tickets.tiers": [
+    [
+      {
+        "name": "Early",
+        "price": "£95",
+        "note": "Limited to the first sixty",
+        "cta_label": "Get early"
+      },
+      {
+        "name": "Standard",
+        "price": "£140",
+        "note": "Includes lunch and the recordings",
+        "cta_label": "Get standard"
+      },
+      {
+        "name": "Community",
+        "price": "£40",
+        "note": "Students, non-profits, between jobs. No questions.",
+        "cta_label": "Get community"
+      }
+    ]
+  ],
+  "location.heading": [
+    "Getting there",
+    "The venue"
+  ],
+  "location.address": [
+    "The Old Print Hall\n2 Foundry Street\nBristol BS1 6TR"
+  ],
+  "location.travel": [
+    "Ten minutes from Temple Meads. Step-free throughout, hearing loop in the main room, quiet room upstairs."
+  ],
+  "location.links_out": [
+    [
+      {
+        "label": "Accessibility notes",
+        "href": "#"
+      },
+      {
+        "label": "Get directions",
+        "href": "#"
+      }
+    ]
+  ],
+  "process.heading": [
+    "How the day runs"
+  ],
+  "process.subheading": [
+    "Single track, so nobody has to choose."
+  ],
+  "process.steps": [
+    [
+      {
+        "title": "Arrive",
+        "body": "Doors and coffee from nine. Badges are on the table, find your own."
+      },
+      {
+        "title": "Listen",
+        "body": "Four talks before lunch, three after. Twenty-five minutes each, questions after."
+      },
+      {
+        "title": "Argue",
+        "body": "A long lunch and a closing panel, which is where the useful bits happen."
+      }
+    ]
+  ]
+}

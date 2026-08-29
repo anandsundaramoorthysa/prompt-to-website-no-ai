@@ -1,0 +1,9 @@
+.pw-lgrid { padding-block: var(--pw-space-7); }
+.pw-lgrid__label { text-align: center; color: var(--pw-color-muted); font-size: .8125rem;
+  letter-spacing: .08em; text-transform: uppercase; margin-block: 0 var(--pw-space-5); }
+.pw-lgrid__list { list-style: none; margin: 0; padding: 0; display: grid;
+  gap: var(--pw-space-4); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+@media (min-width: 640px) { .pw-lgrid__list { grid-template-columns: repeat(4, minmax(0, 1fr)); } }
+.pw-lgrid__item { text-align: center; font-family: var(--pw-font-display); font-weight: 600;
+  color: var(--pw-color-muted); border: 1px solid var(--pw-color-line);
+  border-radius: var(--pw-radius-sm); padding-block: var(--pw-space-4); }

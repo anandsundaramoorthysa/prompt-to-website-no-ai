@@ -1,0 +1,14 @@
+/* Deliberately not sticky: this variant exists for sites where a persistent
+   bar would crowd the page. That also removes the 2.4.11 obscuring risk. */
+.pw-navc { background: var(--pw-color-surface); border-block-end: 1px solid var(--pw-color-line); }
+.pw-navc__inner { display: flex; flex-direction: column; align-items: center;
+  gap: var(--pw-space-3); padding-block: var(--pw-space-5); }
+.pw-navc__brand { font-family: var(--pw-font-display); font-weight: 600; font-size: 1.25rem;
+  color: var(--pw-color-primary); text-decoration: none;
+  min-block-size: var(--pw-target-min); display: inline-flex; align-items: center; }
+.pw-navc__links { list-style: none; margin: 0; padding: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: var(--pw-space-2); }
+.pw-navc__link { color: var(--pw-color-muted); text-decoration: none;
+  min-block-size: var(--pw-target-min); display: inline-flex; align-items: center;
+  padding-inline: var(--pw-space-3); }
+.pw-navc__link:hover, .pw-navc__link:focus-visible { color: var(--pw-color-ink); }

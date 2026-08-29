@@ -1,0 +1,9 @@
+/* Not dismissible: a dismiss button needs JavaScript and state, and stack 1
+   has neither. A quiet permanent strip is honest instead. */
+.pw-banner { background: var(--pw-color-ink); }
+.pw-banner__inner { display: flex; flex-wrap: wrap; gap: var(--pw-space-3);
+  align-items: center; justify-content: center; padding-block: var(--pw-space-2); }
+.pw-banner__msg { color: var(--pw-color-bg); margin: 0; font-size: .9375rem; }
+.pw-banner__link { color: var(--pw-color-bg); font-weight: 600; font-size: .9375rem;
+  min-block-size: var(--pw-target-min); display: inline-flex; align-items: center;
+  padding-inline: var(--pw-space-2); }

@@ -1,0 +1,17 @@
+{
+  "id": "restaurant",
+  "label": "Restaurant",
+  "defaultTokens": "warm-editorial",
+  "copyBank": "restaurant",
+  "shared": ["nav", "footer"],
+  "pages": [
+    { "slug": "index", "title": "Home", "default": true,
+      "sections": ["nav", "hero", "about-strip", "testimonials", "cta", "footer"] },
+    { "slug": "menu", "title": "Menu",
+      "sections": ["nav", "page-header", "menu-full", "footer"] },
+    { "slug": "about", "title": "About",
+      "sections": ["nav", "page-header", "about-strip", "team", "footer"] },
+    { "slug": "contact", "title": "Contact",
+      "sections": ["nav", "page-header", "contact", "footer"] }
+  ]
+}

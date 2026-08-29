@@ -1,0 +1,189 @@
+{
+  "industry": "portfolio",
+  "nav.cta_label": [
+    "Get in touch",
+    "Hire me",
+    "Contact"
+  ],
+  "hero.heading": [
+    "Selected work",
+    "Design, mostly quiet",
+    "Photographs and the odd film",
+    "Ten years of making things"
+  ],
+  "hero.subheading": [
+    "Independent designer working with small teams and stubborn problems.",
+    "Photography for editorial, food and the occasional building.",
+    "Brand, print and the bits of the web that need a careful hand.",
+    "Currently taking work for the second half of the year."
+  ],
+  "hero.cta_primary": [
+    "See the work",
+    "View portfolio"
+  ],
+  "hero.cta_secondary": [
+    "About me",
+    "Get in touch"
+  ],
+  "project-grid.heading": [
+    "Selected work",
+    "Recent projects",
+    "A sample"
+  ],
+  "project-grid.items": [
+    [
+      {
+        "title": "Fernway",
+        "meta": "Brand identity, 2026"
+      },
+      {
+        "title": "Harbour Press",
+        "meta": "Editorial design, 2025"
+      },
+      {
+        "title": "Still Water",
+        "meta": "Photography, 2025"
+      },
+      {
+        "title": "Kestrel",
+        "meta": "Web, 2024"
+      },
+      {
+        "title": "Bramble Market",
+        "meta": "Signage, 2024"
+      },
+      {
+        "title": "Aurora",
+        "meta": "Print, 2023"
+      }
+    ]
+  ],
+  "about-strip.heading": [
+    "About",
+    "A bit about me",
+    "How I work"
+  ],
+  "about-strip.body": [
+    "I work alone, take few projects at a time, and stay on them until they are properly finished.",
+    "Twelve years in studios, four on my own. I care most about the parts nobody photographs: the grid, the spacing, the second page.",
+    "I prefer long conversations at the start and few surprises later."
+  ],
+  "cta.heading": [
+    "Have something in mind?",
+    "Let us talk",
+    "Available for work"
+  ],
+  "cta.subheading": [
+    "Tell me roughly what you need and I will say honestly whether I am the right fit.",
+    "Booking from September.",
+    "No brief is too rough to start with."
+  ],
+  "cta.cta_label": [
+    "Get in touch",
+    "Send a message"
+  ],
+  "contact.heading": [
+    "Get in touch",
+    "Say hello"
+  ],
+  "contact.subheading": [
+    "A sentence about the project is enough to start.",
+    "I reply to everything, usually within two days."
+  ],
+  "contact.action": [
+    "#"
+  ],
+  "contact.submit_label": [
+    "Send message"
+  ],
+  "testimonials.heading": [
+    "Kind words",
+    "What clients say"
+  ],
+  "testimonials.quotes": [
+    [
+      {
+        "quote": "Asked better questions than anyone else we spoke to, and the work showed it.",
+        "name": "Ana",
+        "role": "Harbour Press"
+      },
+      {
+        "quote": "Delivered on time, then stayed to make sure it actually launched properly.",
+        "name": "Bo",
+        "role": "Fernway"
+      },
+      {
+        "quote": "The kind of care you only notice when it is missing elsewhere.",
+        "name": "Ines",
+        "role": "Aurora"
+      }
+    ]
+  ],
+  "page-header.subheading": [
+    "",
+    "Selected projects, most recent first."
+  ],
+  "availability.status": [
+    "Available from September",
+    "Taking work for the second half of the year"
+  ],
+  "availability.detail": [
+    "Two project slots left this year.",
+    "Happy to talk about work starting later."
+  ],
+  "availability.cta_label": [
+    "Get in touch"
+  ],
+  "awards.heading": [
+    "Recognition"
+  ],
+  "awards.items": [
+    [
+      {
+        "name": "D&AD Wood Pencil",
+        "meta": "Editorial, 2025"
+      },
+      {
+        "name": "Association of Photographers",
+        "meta": "Shortlisted, 2024"
+      }
+    ]
+  ],
+  "timeline.heading": [
+    "A short history"
+  ],
+  "timeline.entries": [
+    [
+      {
+        "year": "2014",
+        "title": "First studio job",
+        "body": "Four years learning the parts nobody photographs."
+      },
+      {
+        "year": "2022",
+        "title": "On my own",
+        "body": "Fewer projects, longer spent on each one."
+      }
+    ]
+  ],
+  "contact.details": [
+    [
+      {
+        "key": "Email",
+        "value": "hello@example.com",
+        "href": "#"
+      },
+      {
+        "key": "Instagram",
+        "value": "@example",
+        "href": "#"
+      }
+    ]
+  ],
+  "quote-strip.quote": [
+    "Asked better questions than anyone else we spoke to."
+  ],
+  "quote-strip.source": [
+    "Ana, Harbour Press"
+  ]
+}

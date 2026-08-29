@@ -1,0 +1,7 @@
+.pw-servl { padding-block: var(--pw-space-8); }
+.pw-servl__list { margin: 0; max-inline-size: 54rem; margin-inline: auto; }
+.pw-servl__row { display: grid; gap: var(--pw-space-2);
+  padding-block: var(--pw-space-4); border-block-end: 1px solid var(--pw-color-line); }
+@media (min-width: 768px) { .pw-servl__row { grid-template-columns: 14rem 1fr; gap: var(--pw-space-5); } }
+.pw-servl__title { font-family: var(--pw-font-display); font-size: 1.125rem; color: var(--pw-color-ink); }
+.pw-servl__body { color: var(--pw-color-muted); margin: 0; }

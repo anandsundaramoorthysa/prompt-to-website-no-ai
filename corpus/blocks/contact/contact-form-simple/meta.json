@@ -1,0 +1,56 @@
+{
+  "id": "contact-form-simple",
+  "category": "contact",
+  "label": "Simple form",
+  "tags": [
+    "shared"
+  ],
+  "weight": 10,
+  "slots": {
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "subheading": {
+      "type": "text"
+    },
+    "action": {
+      "type": "text"
+    },
+    "submit_label": {
+      "type": "text"
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true
+    },
+    "vanilla": {
+      "available": true
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "n/a",
+      "dragging": "n/a",
+      "reflow": "single column",
+      "date": "2026-08-18",
+      "by": "human"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

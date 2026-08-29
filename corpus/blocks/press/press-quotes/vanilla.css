@@ -1,0 +1,9 @@
+.pw-press { padding-block: var(--pw-space-7); background: var(--pw-color-surface); }
+.pw-press__list { list-style: none; margin: 0; padding: 0; display: grid;
+  gap: var(--pw-space-5); }
+@media (min-width: 768px) { .pw-press__list { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+.pw-press__quote { margin: 0 0 var(--pw-space-2); }
+.pw-press__quote p { margin: 0; color: var(--pw-color-ink);
+  font-family: var(--pw-font-display); font-size: 1.0625rem; }
+.pw-press__src { color: var(--pw-color-muted); font-size: .875rem;
+  text-transform: uppercase; letter-spacing: .06em; margin: 0; }

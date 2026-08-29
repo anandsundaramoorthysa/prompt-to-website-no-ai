@@ -1,0 +1,5 @@
+/* Static list, so it needs no disclosure widget and no JavaScript at all. */
+.pw-faq2 { padding-block: var(--pw-space-8); }
+.pw-faq2__q { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-2); }
+.pw-faq2__a { color: var(--pw-color-muted); margin: 0; }

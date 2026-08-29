@@ -1,0 +1,3 @@
+/* Native HTML5 constraint validation only. No script, so this block is
+   available in stack 1 unchanged. */
+.pw-contact { padding-block: var(--pw-space-8); }

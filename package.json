@@ -1,0 +1,138 @@
+{
+  "name": "prompt-to-website-no-ai",
+  "displayName": "Prompt to Website — No AI",
+  "description": "Production front-end sites from a prompt. No model, no API key, no network.",
+  "version": "0.1.0",
+  "license": "MIT",
+  "publisher": "anandsundaramoorthysa",
+  "engines": {
+    "vscode": "^1.85.0"
+  },
+  "categories": [
+    "Snippets",
+    "Other"
+  ],
+  "keywords": [
+    "website",
+    "generator",
+    "html",
+    "css",
+    "bootstrap",
+    "no-ai",
+    "offline",
+    "scaffold"
+  ],
+  "main": "./dist/extension.js",
+  "l10n": "./l10n",
+  "activationEvents": [
+    "onStartupFinished"
+  ],
+  "contributes": {
+    "commands": [
+      {
+        "command": "promptToWebsite.generate",
+        "title": "Generate",
+        "category": "Prompt to Website"
+      },
+      {
+        "command": "promptToWebsite.refine",
+        "title": "Refine",
+        "category": "Prompt to Website"
+      },
+      {
+        "command": "promptToWebsite.studio",
+        "title": "Open Studio panel",
+        "category": "Prompt to Website"
+      },
+      {
+        "command": "promptToWebsite.preview",
+        "title": "Preview in browser",
+        "category": "Prompt to Website"
+      },
+      {
+        "command": "promptToWebsite.stopPreview",
+        "title": "Stop preview server",
+        "category": "Prompt to Website"
+      },
+      {
+        "command": "promptToWebsite.insertBlock",
+        "title": "Insert block",
+        "category": "Prompt to Website"
+      },
+      {
+        "command": "promptToWebsite.reTheme",
+        "title": "Re-theme",
+        "category": "Prompt to Website"
+      },
+      {
+        "command": "promptToWebsite.diagnostics",
+        "title": "Copy diagnostic report",
+        "category": "Prompt to Website"
+      }
+    ],
+    "configuration": {
+      "title": "Prompt to Website",
+      "properties": {
+        "promptToWebsite.defaultStack": {
+          "type": "string",
+          "enum": [
+            "html-css",
+            "html-css-js",
+            "bootstrap"
+          ],
+          "default": "bootstrap",
+          "description": "Default output stack when the prompt does not name one."
+        },
+        "promptToWebsite.previewPort": {
+          "type": "number",
+          "default": 5510,
+          "description": "First port tried by the local preview server. Bound to 127.0.0.1 only."
+        }
+      }
+    }
+  },
+  "scripts": {
+    "build:corpus": "node scripts/build-corpus.mjs",
+    "build": "npm run vendor && npm run build:corpus && node esbuild.mjs",
+    "watch": "npm run build:corpus && node esbuild.mjs --watch",
+    "typecheck": "tsc --noEmit",
+    "test": "node --test test/",
+    "check:size": "node scripts/check-size.mjs",
+    "check:tokens": "node scripts/check-tokens.mjs",
+    "vendor": "node scripts/vendor-bootstrap.mjs",
+    "check:contrast": "node scripts/check-contrast.mjs",
+    "audit:a11y": "node scripts/audit-a11y.mjs",
+    "new-block": "node scripts/new-block.mjs",
+    "verify": "npm run build && npm run check:tokens && npm run check:contrast && npm run check:size && npm test && npm run audit:coverage",
+    "audit:manual": "node scripts/audit-manual.mjs",
+    "audit": "node scripts/audit-a11y.mjs .tmp/audit-site && node scripts/audit-manual.mjs .tmp/audit-site",
+    "audit:coverage": "node scripts/audit-coverage.mjs && node scripts/audit-a11y.mjs .tmp/coverage && node scripts/audit-manual.mjs .tmp/coverage-blocks",
+    "vscode:prepublish": "npm run build"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.0",
+    "@types/vscode": "^1.85.0",
+    "@vscode/vsce": "^3.9.2",
+    "axe-core": "^4.13.0",
+    "bootstrap": "^5.3.3",
+    "esbuild": "^0.23.0",
+    "playwright": "^1.62.1",
+    "typescript": "^5.5.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anandsundaramoorthysa/prompt-to-website-no-ai.git"
+  },
+  "bugs": {
+    "url": "https://github.com/anandsundaramoorthysa/prompt-to-website-no-ai/issues"
+  },
+  "homepage": "https://github.com/anandsundaramoorthysa/prompt-to-website-no-ai#readme",
+  "sponsor": {
+    "url": "https://github.com/sponsors/anandsundaramoorthysa"
+  },
+  "icon": "media/icon.png",
+  "galleryBanner": {
+    "color": "#16292A",
+    "theme": "dark"
+  }
+}

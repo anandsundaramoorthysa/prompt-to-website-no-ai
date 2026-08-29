@@ -1,0 +1,6 @@
+.pw-avail { padding-block: var(--pw-space-6); border-block: 1px solid var(--pw-color-line); }
+.pw-avail__inner { display: flex; flex-wrap: wrap; gap: var(--pw-space-4);
+  align-items: center; justify-content: center; text-align: center; }
+.pw-avail__status { font-family: var(--pw-font-display); color: var(--pw-color-primary);
+  font-weight: 700; margin: 0; }
+.pw-avail__detail { color: var(--pw-color-muted); margin: 0; }

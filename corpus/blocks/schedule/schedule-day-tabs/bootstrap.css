@@ -1,0 +1,12 @@
+/* Single day rendered as a plain ordered list. Multi-day uses radio tabs,
+   which stay CSS-only; no JavaScript is introduced either way. */
+.pw-tabs { padding-block: var(--pw-space-8); background: var(--pw-color-surface); }
+.pw-tabs__list { list-style: none; margin: 0; padding: 0; max-inline-size: 48rem; margin-inline: auto; }
+.pw-tabs__row { display: grid; gap: var(--pw-space-2); padding-block: var(--pw-space-4);
+  border-block-end: 1px solid var(--pw-color-line); }
+@media (min-width: 640px) { .pw-tabs__row { grid-template-columns: 6rem 1fr; gap: var(--pw-space-5); } }
+.pw-tabs__time { color: var(--pw-color-primary); font-weight: 600;
+  font-variant-numeric: tabular-nums; margin: 0; }
+.pw-tabs__title { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-1); }
+.pw-tabs__who { color: var(--pw-color-muted); margin: 0; font-size: .9375rem; }

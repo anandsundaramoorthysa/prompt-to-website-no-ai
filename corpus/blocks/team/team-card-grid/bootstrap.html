@@ -1,0 +1,14 @@
+<section class="pw-team" id="team">
+  <div class="container">
+    <h2 class="pw-section__title">{{heading}}</h2>
+    <ul class="pw-team__list row g-4">
+      <!-- pw:repeat people -->
+      <li class="col-md-4 pw-person">
+        <p class="pw-person__monogram" aria-hidden="true">{{initial}}</p>
+        <h3 class="pw-person__name">{{name}}</h3>
+        <p class="pw-person__role">{{role}}</p>
+      </li>
+      <!-- /pw:repeat -->
+    </ul>
+  </div>
+</section>

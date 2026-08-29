@@ -1,0 +1,54 @@
+{
+  "id": "logos-grid",
+  "category": "social-proof",
+  "label": "Logo grid",
+  "tags": [
+    "agency"
+  ],
+  "weight": 10,
+  "slots": {
+    "heading": {
+      "type": "text"
+    },
+    "logos": {
+      "type": "list",
+      "min": 4,
+      "max": 12
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true
+    },
+    "vanilla": {
+      "available": true
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [
+    "social-proof-logo-strip",
+    "social-proof-stat-row"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "verified by scripts/audit-manual.mjs",
+      "dragging": "n/a — no drag interaction",
+      "reflow": "verified at 320px by scripts/audit-manual.mjs",
+      "date": "2026-08-18",
+      "by": "human + audit-manual.mjs"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

@@ -1,0 +1,8 @@
+.pw-menu2 { padding-block: var(--pw-space-8); }
+.pw-menu2__name { font-family: var(--pw-font-display); color: var(--pw-color-primary);
+  text-transform: uppercase; letter-spacing: .06em; font-size: 1rem;
+  margin-block: 0 var(--pw-space-2); }
+.pw-menu2__dish { color: var(--pw-color-ink); font-weight: 600; margin-block: 0 var(--pw-space-1); }
+.pw-menu2__price { color: var(--pw-color-muted); font-weight: 400;
+  font-variant-numeric: tabular-nums; margin-inline-start: var(--pw-space-2); }
+.pw-menu2__note { color: var(--pw-color-muted); font-size: .9375rem; margin: 0; }

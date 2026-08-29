@@ -1,0 +1,11 @@
+.pw-cmp { padding-block: var(--pw-space-8); background: var(--pw-color-surface); }
+/* Wide content scrolls in its own container so the page never scrolls sideways. */
+.pw-cmp__scroll { overflow-x: auto; }
+.pw-cmp__table { inline-size: 100%; border-collapse: collapse; min-inline-size: 32rem; }
+.pw-cmp__table th, .pw-cmp__table td { text-align: start; padding: var(--pw-space-3);
+  border-block-end: 1px solid var(--pw-color-line); }
+.pw-cmp__table thead th { font-family: var(--pw-font-display); color: var(--pw-color-muted);
+  text-transform: uppercase; letter-spacing: .06em; font-size: .8125rem; }
+.pw-cmp__table tbody th { font-family: var(--pw-font-display); color: var(--pw-color-ink); }
+.pw-cmp__price { font-variant-numeric: tabular-nums; color: var(--pw-color-ink); font-weight: 600; }
+.pw-cmp__period { color: var(--pw-color-muted); font-weight: 400; font-size: .875rem; }

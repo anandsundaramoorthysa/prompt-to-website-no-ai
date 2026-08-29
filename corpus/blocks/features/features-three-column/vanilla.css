@@ -1,0 +1,7 @@
+.pw-features { padding-block: var(--pw-space-8); }
+.pw-card { background: var(--pw-color-surface); border: 1px solid var(--pw-color-line);
+  border-radius: var(--pw-radius-md); padding: var(--pw-space-5);
+  block-size: 100%; box-shadow: var(--pw-shadow-sm); }
+.pw-card__title { font-family: var(--pw-font-display); font-size: 1.125rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-2); }
+.pw-card__body { color: var(--pw-color-muted); margin: 0; }

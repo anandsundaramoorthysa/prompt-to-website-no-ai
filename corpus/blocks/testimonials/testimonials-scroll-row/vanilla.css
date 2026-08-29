@@ -1,0 +1,13 @@
+/* CSS scroll-snap: swipeable and keyboard-scrollable with no JavaScript,
+   which is why this block is available in stack 1. */
+.pw-scrollq { padding-block: var(--pw-space-8); }
+.pw-scrollq__track { list-style: none; margin: 0; padding: 0 0 var(--pw-space-3);
+  display: flex; gap: var(--pw-space-4); overflow-x: auto;
+  scroll-snap-type: x mandatory; overscroll-behavior-x: contain; }
+.pw-scrollq__track:focus-visible { outline: 2px solid var(--pw-color-primary); outline-offset: 4px; }
+.pw-scrollq__item { flex: 0 0 min(22rem, 82%); scroll-snap-align: start;
+  background: var(--pw-color-surface); border: 1px solid var(--pw-color-line);
+  border-radius: var(--pw-radius-md); padding: var(--pw-space-5); }
+.pw-scrollq__text { margin-block: 0 var(--pw-space-3); }
+.pw-scrollq__text p { margin: 0; color: var(--pw-color-ink); }
+.pw-scrollq__by { color: var(--pw-color-muted); font-size: .9375rem; margin: 0; }

@@ -1,0 +1,9 @@
+.pw-galm { padding-block: var(--pw-space-8); }
+.pw-galm__list { list-style: none; margin: 0; padding: 0; columns: 1; column-gap: var(--pw-space-4); }
+@media (min-width: 640px) { .pw-galm__list { columns: 2; } }
+@media (min-width: 1024px) { .pw-galm__list { columns: 3; } }
+.pw-galm__item { break-inside: avoid; margin-block-end: var(--pw-space-4); }
+.pw-galm__item .pw-tile { inline-size: 100%; block-size: auto;
+  border-radius: var(--pw-radius-md); display: block; }
+.pw-galm__caption { color: var(--pw-color-muted); font-size: .9375rem;
+  margin-block: var(--pw-space-2) 0; }

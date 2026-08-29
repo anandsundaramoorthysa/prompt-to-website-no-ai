@@ -1,0 +1,55 @@
+{
+  "id": "testimonials-quote-grid",
+  "category": "testimonials",
+  "label": "Quote grid",
+  "tags": [
+    "saas",
+    "agency"
+  ],
+  "weight": 10,
+  "slots": {
+    "heading": {
+      "type": "text",
+      "required": true
+    },
+    "quotes": {
+      "type": "list",
+      "min": 2,
+      "max": 6
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true
+    },
+    "vanilla": {
+      "available": true
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [
+    "testimonials-carousel"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "n/a",
+      "dragging": "n/a",
+      "reflow": "stacks at md",
+      "date": "2026-08-18",
+      "by": "human"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

@@ -1,0 +1,59 @@
+{
+  "id": "footer-simple-centered",
+  "category": "footer",
+  "label": "Simple centered",
+  "tags": [
+    "saas",
+    "marketing"
+  ],
+  "weight": 10,
+  "slots": {
+    "brand": {
+      "type": "text",
+      "required": true
+    },
+    "links": {
+      "type": "list",
+      "min": 2,
+      "max": 8
+    },
+    "legal": {
+      "type": "text",
+      "required": false
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true
+    },
+    "vanilla": {
+      "available": true
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [
+    "footer-four-column"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "n/a",
+      "dragging": "n/a",
+      "reflow": "wraps",
+      "date": "2026-08-18",
+      "by": "human"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

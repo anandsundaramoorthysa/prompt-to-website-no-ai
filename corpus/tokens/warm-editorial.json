@@ -1,0 +1,15 @@
+{
+  "id": "warm-editorial", "label": "Warm Editorial",
+  "color": { "primary": "#9C4A21", "primary-ink": "#FFFFFF", "bg": "#FBF6EF",
+             "surface": "#FFFFFF", "ink": "#2A211B", "muted": "#6B5B4C",
+             "line": "#E8DDCE", "hero-bg": "#F5E9DA" },
+  "colorDark": { "primary": "#E0906A", "primary-ink": "#1A120C", "bg": "#1B1613",
+                 "surface": "#241D18", "ink": "#F0E6DA", "muted": "#B7A794",
+                 "line": "#3A2F26", "hero-bg": "#2A211A" },
+  "font": { "display": "'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif",
+            "body": "'Segoe UI', system-ui, -apple-system, sans-serif" },
+  "radius": { "sm": "3px", "md": "6px", "lg": "10px" },
+  "space": { "1": "4px", "2": "8px", "3": "12px", "4": "16px", "5": "24px", "6": "32px", "7": "48px", "8": "72px" },
+  "shadow": { "sm": "0 1px 2px rgba(42,33,27,.07)", "md": "0 4px 16px rgba(42,33,27,.12)" },
+  "target": { "min": "24px" }
+}

@@ -1,0 +1,11 @@
+.pw-herow { background: var(--pw-color-hero-bg); padding-block: var(--pw-space-8); }
+.pw-herow__inner { text-align: center; max-inline-size: 46rem; margin-inline: auto; }
+.pw-herow__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: clamp(2rem, 4.5vw, 3rem); line-height: 1.1;
+  margin-block: 0 var(--pw-space-4); text-wrap: balance; }
+.pw-herow__sub { color: var(--pw-color-muted); font-size: 1.125rem;
+  margin-block: 0 var(--pw-space-5); }
+.pw-herow__form { display: flex; flex-wrap: wrap; gap: var(--pw-space-2); justify-content: center; }
+.pw-herow__input { min-inline-size: 18rem; }
+.pw-herow__note { color: var(--pw-color-muted); font-size: .875rem;
+  margin-block: var(--pw-space-3) 0; }

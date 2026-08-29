@@ -1,0 +1,8 @@
+.pw-ctas { padding-block: var(--pw-space-7); background: var(--pw-color-hero-bg); }
+.pw-ctas__inner { display: flex; flex-wrap: wrap; align-items: center;
+  gap: var(--pw-space-5); justify-content: space-between; }
+.pw-ctas__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: clamp(1.375rem, 2.6vw, 1.875rem); margin-block: 0 var(--pw-space-2);
+  text-wrap: balance; }
+.pw-ctas__sub { color: var(--pw-color-muted); margin: 0; max-inline-size: 48ch; }
+.pw-ctas__btn { flex: none; }

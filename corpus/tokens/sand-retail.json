@@ -1,0 +1,15 @@
+{
+  "id": "sand-retail", "label": "Sand Retail",
+  "color": { "primary": "#7A5A28", "primary-ink": "#FFFFFF", "bg": "#FBF8F1",
+             "surface": "#FFFFFF", "ink": "#241F16", "muted": "#6B6052",
+             "line": "#EBE2D0", "hero-bg": "#F4ECDC" },
+  "colorDark": { "primary": "#D8B57A", "primary-ink": "#1A150D", "bg": "#161310",
+                 "surface": "#1F1B15", "ink": "#F2EADC", "muted": "#B3A791",
+                 "line": "#332C22", "hero-bg": "#241E16" },
+  "font": { "display": "'Palatino Linotype', 'Book Antiqua', Palatino, Georgia, serif",
+            "body": "'Segoe UI', system-ui, -apple-system, sans-serif" },
+  "radius": { "sm": "2px", "md": "4px", "lg": "8px" },
+  "space": { "1": "4px", "2": "8px", "3": "12px", "4": "16px", "5": "24px", "6": "32px", "7": "48px", "8": "72px" },
+  "shadow": { "sm": "0 1px 2px rgba(36,31,22,.07)", "md": "0 4px 16px rgba(36,31,22,.10)" },
+  "target": { "min": "24px" }
+}

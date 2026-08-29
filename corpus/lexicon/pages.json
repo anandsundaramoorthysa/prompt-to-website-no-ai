@@ -1,0 +1,60 @@
+{
+  "menu": [
+    "menu page",
+    "menu"
+  ],
+  "about": [
+    "about page",
+    "about us page",
+    "story page"
+  ],
+  "contact": [
+    "contact page"
+  ],
+  "work": [
+    "work page",
+    "portfolio page",
+    "case studies page"
+  ],
+  "services": [
+    "services page"
+  ],
+  "pricing": [
+    "pricing page"
+  ],
+  "faq": [
+    "faq page"
+  ],
+  "team": [
+    "team page"
+  ],
+  "blog": [
+    "blog page",
+    "blog",
+    "journal",
+    "news page"
+  ],
+  "privacy": [
+    "privacy page",
+    "privacy policy"
+  ],
+  "terms": [
+    "terms page",
+    "terms of service"
+  ],
+  "schedule": [
+    "schedule page",
+    "agenda page"
+  ],
+  "speakers": [
+    "speakers page",
+    "line-up page"
+  ],
+  "shop": [
+    "shop page",
+    "store page"
+  ],
+  "gallery": [
+    "gallery page"
+  ]
+}

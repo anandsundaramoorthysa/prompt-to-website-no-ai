@@ -1,0 +1,239 @@
+{
+  "industry": "shop",
+  "nav.cta_label": [
+    "Shop now",
+    "Browse",
+    "See the range"
+  ],
+  "hero.heading": [
+    "Made in small batches",
+    "Things built to be kept",
+    "A short range, made properly",
+    "Fewer, better, slower"
+  ],
+  "hero.subheading": [
+    "We make a handful of things and we make them well. Free returns for thirty days.",
+    "Everything here is made within fifty miles, mostly by people we have met.",
+    "No seasonal drops, no clearance. The range changes when something can be improved.",
+    "Ships in two working days, plastic-free."
+  ],
+  "hero.cta_primary": [
+    "Shop the range",
+    "Browse"
+  ],
+  "hero.cta_secondary": [
+    "How it is made",
+    "About us"
+  ],
+  "product-grid.heading": [
+    "The range",
+    "What we make",
+    "Everything we sell"
+  ],
+  "product-grid.subheading": [
+    "Nine things. That is the whole catalogue.",
+    "Restocked monthly, never discounted."
+  ],
+  "product-grid.items": [
+    [
+      {
+        "name": "Everyday tote",
+        "price": "£48",
+        "note": "Waxed canvas, brass hardware"
+      },
+      {
+        "name": "Field notebook",
+        "price": "£14",
+        "note": "Ninety pages, sewn binding"
+      },
+      {
+        "name": "Enamel mug",
+        "price": "£19",
+        "note": "Chip-resistant, dishwasher safe"
+      },
+      {
+        "name": "Linen apron",
+        "price": "£56",
+        "note": "Undyed, softens with washing"
+      },
+      {
+        "name": "Wool throw",
+        "price": "£120",
+        "note": "Undyed British wool"
+      },
+      {
+        "name": "Cutting board",
+        "price": "£38",
+        "note": "Oiled beech, made to order"
+      }
+    ]
+  ],
+  "social-proof.heading": [
+    "Why people come back",
+    "The numbers"
+  ],
+  "social-proof.stats": [
+    [
+      {
+        "value": "30 days",
+        "label": "Free returns, no questions"
+      },
+      {
+        "value": "50 miles",
+        "label": "Average distance from maker to us"
+      },
+      {
+        "value": "0%",
+        "label": "Plastic in our packaging"
+      }
+    ]
+  ],
+  "social-proof.logos": [
+    [
+      {
+        "name": "Harbour Press"
+      },
+      {
+        "name": "Fernway"
+      },
+      {
+        "name": "Still Water"
+      },
+      {
+        "name": "Bramble Market"
+      }
+    ]
+  ],
+  "newsletter.heading": [
+    "Know when we restock",
+    "Occasional letters"
+  ],
+  "newsletter.subheading": [
+    "About six emails a year. No discount codes, because we do not discount.",
+    "Restock notices and the odd note from the workshop."
+  ],
+  "newsletter.action": [
+    "#"
+  ],
+  "newsletter.submit_label": [
+    "Subscribe"
+  ],
+  "about-strip.heading": [
+    "How it is made",
+    "About the workshop",
+    "Our story"
+  ],
+  "about-strip.body": [
+    "We started making one bag for ourselves because nothing on sale was repairable. The range grew slowly from there.",
+    "Everything is made in batches of forty or fewer, by four people, in a converted joinery.",
+    "If something breaks, send it back. We would rather repair it than sell you another."
+  ],
+  "cta.heading": [
+    "Have a look",
+    "Start with one thing"
+  ],
+  "cta.subheading": [
+    "Free returns for thirty days, so there is no risk in trying.",
+    "Ships in two working days."
+  ],
+  "cta.cta_label": [
+    "Shop the range",
+    "Browse"
+  ],
+  "contact.heading": [
+    "Get in touch",
+    "Questions"
+  ],
+  "contact.subheading": [
+    "Repairs, returns, wholesale — all handled by the same four people.",
+    "We reply within a working day."
+  ],
+  "contact.action": [
+    "#"
+  ],
+  "contact.submit_label": [
+    "Send message"
+  ],
+  "page-header.subheading": [
+    "",
+    "Made in small batches."
+  ],
+  "shipping.items": [
+    [
+      {
+        "title": "Free returns",
+        "body": "Thirty days, no questions asked"
+      },
+      {
+        "title": "Plastic-free",
+        "body": "Paper, card and paper tape only"
+      },
+      {
+        "title": "Repairs",
+        "body": "Send it back and we will fix it"
+      }
+    ]
+  ],
+  "press.heading": [
+    "As seen in"
+  ],
+  "press.items": [
+    [
+      {
+        "quote": "The tote you buy once.",
+        "source": "Harbour Press"
+      },
+      {
+        "quote": "Quietly the best-made things we tested.",
+        "source": "Fernway Review"
+      },
+      {
+        "quote": "Repairable, which is now rare enough to be radical.",
+        "source": "Still Water"
+      }
+    ]
+  ],
+  "hours.heading": [
+    "Workshop hours"
+  ],
+  "hours.subheading": [
+    "The shop is online, but you can visit the workshop."
+  ],
+  "hours.days": [
+    [
+      {
+        "day": "Thursday",
+        "time": "10:00 – 17:00"
+      },
+      {
+        "day": "Friday",
+        "time": "10:00 – 17:00"
+      },
+      {
+        "day": "Saturday",
+        "time": "10:00 – 14:00"
+      },
+      {
+        "day": "Sunday to Wednesday",
+        "time": "Closed"
+      }
+    ]
+  ],
+  "location.heading": [
+    "Visit the workshop"
+  ],
+  "location.address": [
+    "Unit 4, Old Joinery\nFoundry Street\nBristol BS1 6TR"
+  ],
+  "location.travel": [
+    "Ring the bell on the blue door. Step-free access through the yard."
+  ],
+  "location.links_out": [
+    [
+      {
+        "label": "Get directions",
+        "href": "#"
+      }
+    ]
+  ]
+}

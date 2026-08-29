@@ -1,0 +1,17 @@
+<section class="pw-sched" id="schedule">
+  <div class="pw-container">
+    <h2 class="pw-section__title">{{heading}}</h2>
+    <p class="pw-section__sub">{{subheading}}</p>
+    <ol class="pw-sched__list">
+      <!-- pw:repeat slots_list -->
+      <li class="pw-sched__row">
+        <p class="pw-sched__time"><time>{{time}}</time></p>
+        <div>
+          <h3 class="pw-sched__title">{{title}}</h3>
+          <p class="pw-sched__who">{{who}}</p>
+        </div>
+      </li>
+      <!-- /pw:repeat -->
+    </ol>
+  </div>
+</section>

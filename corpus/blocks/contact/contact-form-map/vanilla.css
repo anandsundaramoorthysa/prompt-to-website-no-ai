@@ -1,0 +1,11 @@
+.pw-contactd { padding-block: var(--pw-space-8); }
+.pw-contactd__grid { display: grid; gap: var(--pw-space-7); }
+@media (min-width: 768px) { .pw-contactd__grid { grid-template-columns: 1fr 1.2fr; } }
+.pw-contactd__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: clamp(1.5rem, 3vw, 2rem); margin-block: 0 var(--pw-space-3); }
+.pw-contactd__sub { color: var(--pw-color-muted); margin-block: 0 var(--pw-space-5); }
+.pw-contactd__details { margin: 0; }
+.pw-contactd__row { display: flex; gap: var(--pw-space-3);
+  padding-block: var(--pw-space-2); border-block-end: 1px solid var(--pw-color-line); }
+.pw-contactd__key { color: var(--pw-color-muted); min-inline-size: 6rem; }
+.pw-contactd__val { margin: 0; color: var(--pw-color-ink); }

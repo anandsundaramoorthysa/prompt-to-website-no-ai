@@ -1,0 +1,31 @@
+<section class="pw-book" id="booking">
+  <div class="pw-container">
+    <h2 class="pw-section__title">{{heading}}</h2>
+    <p class="pw-section__sub">{{subheading}}</p>
+    <form class="pw-form pw-book__form" method="post" action="{{action}}">
+      <div class="pw-book__row">
+        <div class="pw-field">
+          <label class="pw-label" for="pw-bk-date">Date</label>
+          <input class="pw-input" type="date" id="pw-bk-date" name="date" required>
+        </div>
+        <div class="pw-field">
+          <label class="pw-label" for="pw-bk-time">Time</label>
+          <input class="pw-input" type="time" id="pw-bk-time" name="time" required>
+        </div>
+        <div class="pw-field">
+          <label class="pw-label" for="pw-bk-people">People</label>
+          <input class="pw-input" type="number" id="pw-bk-people" name="people" min="1" max="12" value="2" required>
+        </div>
+      </div>
+      <div class="pw-field">
+        <label class="pw-label" for="pw-bk-name">Name</label>
+        <input class="pw-input" type="text" id="pw-bk-name" name="name" autocomplete="name" required>
+      </div>
+      <div class="pw-field">
+        <label class="pw-label" for="pw-bk-notes">Anything we should know?</label>
+        <textarea class="pw-input" id="pw-bk-notes" name="notes" rows="3"></textarea>
+      </div>
+      <button class="pw-btn pw-btn--primary" type="submit">{{submit_label}}</button>
+    </form>
+  </div>
+</section>

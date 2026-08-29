@@ -1,0 +1,22 @@
+# dependencies
+node_modules/
+
+# build output
+dist/
+out/
+*.vsix
+
+# generated from corpus/ by scripts/build-corpus.mjs
+src/generated/
+
+# vendored at build time by scripts/vendor-bootstrap.mjs
+corpus/vendor/
+
+# scratch: audit sites, coverage sheets, generated test output
+.tmp/
+.vscode-test/
+
+# editor / OS
+.DS_Store
+Thumbs.db
+*.log

@@ -1,0 +1,12 @@
+.pw-abouts { padding-block: var(--pw-space-8); }
+.pw-abouts__inner { display: grid; gap: var(--pw-space-7); }
+@media (min-width: 768px) { .pw-abouts__inner { grid-template-columns: 3fr 2fr; align-items: center; } }
+.pw-abouts__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: clamp(1.5rem, 3vw, 2rem); margin-block: 0 var(--pw-space-3); text-wrap: balance; }
+.pw-abouts__body { color: var(--pw-color-muted); margin: 0; max-inline-size: 52ch; }
+.pw-abouts__stats { list-style: none; margin: 0; padding: 0; display: grid;
+  gap: var(--pw-space-4); grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.pw-abouts__value { font-family: var(--pw-font-display); font-size: 1.875rem;
+  color: var(--pw-color-primary); margin-block: 0 var(--pw-space-1);
+  font-variant-numeric: tabular-nums; }
+.pw-abouts__label { color: var(--pw-color-muted); font-size: .875rem; margin: 0; }

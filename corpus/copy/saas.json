@@ -1,0 +1,316 @@
+{
+  "industry": "saas",
+  "nav.cta_label": [
+    "Start free",
+    "Get started",
+    "Try it free"
+  ],
+  "hero.heading": [
+    "Ship work, not status updates",
+    "Every project, one clear view",
+    "Stop chasing updates. Start shipping.",
+    "The calm way to run projects"
+  ],
+  "hero.subheading": [
+    "Plan, track and deliver without the weekly status meeting.",
+    "One workspace for briefs, timelines and the people doing the work.",
+    "Bring scattered work into a single, honest view of progress.",
+    "Know what is happening without asking anyone."
+  ],
+  "hero.cta_primary": [
+    "Start free",
+    "Try it free"
+  ],
+  "hero.cta_secondary": [
+    "See how it works",
+    "Watch a two-minute tour"
+  ],
+  "social-proof.heading": [
+    "Trusted by teams at",
+    "Used every day by",
+    "Teams who switched"
+  ],
+  "social-proof.logos": [
+    [
+      {
+        "name": "Kestrel"
+      },
+      {
+        "name": "Bramble"
+      },
+      {
+        "name": "Aurora Labs"
+      },
+      {
+        "name": "Tessellate"
+      },
+      {
+        "name": "Fernway"
+      }
+    ]
+  ],
+  "features.heading": [
+    "Everything you need, nothing you do not",
+    "What you get",
+    "Built for the way teams actually work"
+  ],
+  "features.subheading": [
+    "Three things that remove most of the busywork.",
+    "The essentials, done carefully.",
+    "No feature sprawl. Just the parts you use daily."
+  ],
+  "features.items": [
+    [
+      {
+        "title": "Shared timelines",
+        "body": "One timeline everyone can read, updated as work moves."
+      },
+      {
+        "title": "Honest status",
+        "body": "Progress comes from real activity, not from someone remembering to update a field."
+      },
+      {
+        "title": "Quiet by default",
+        "body": "Notifications you actually want, batched so they never interrupt deep work."
+      }
+    ],
+    [
+      {
+        "title": "Plan in minutes",
+        "body": "Start from a template, adjust what matters, and get moving the same day."
+      },
+      {
+        "title": "See the blockers",
+        "body": "Stalled work surfaces itself instead of hiding at the bottom of a list."
+      },
+      {
+        "title": "Works with your stack",
+        "body": "Connects to the tools your team already uses, without a migration project."
+      }
+    ]
+  ],
+  "pricing.heading": [
+    "Simple pricing",
+    "Pricing that stays predictable",
+    "Pick a plan, change it any time"
+  ],
+  "pricing.subheading": [
+    "No seat minimums, no annual lock-in.",
+    "Every plan includes the whole product.",
+    "Start free. Upgrade when the team grows."
+  ],
+  "pricing.tiers": [
+    [
+      {
+        "name": "Starter",
+        "price": "Free",
+        "period": "for 3 people",
+        "note": "Everything you need to run your first project.",
+        "cta_label": "Start free"
+      },
+      {
+        "name": "Team",
+        "price": "$12",
+        "period": "per person / month",
+        "note": "For teams that need shared timelines and reporting.",
+        "cta_label": "Choose Team"
+      },
+      {
+        "name": "Company",
+        "price": "$29",
+        "period": "per person / month",
+        "note": "Advanced permissions, audit history and priority support.",
+        "cta_label": "Choose Company"
+      }
+    ]
+  ],
+  "testimonials.heading": [
+    "What teams say",
+    "In their words",
+    "Why people stay"
+  ],
+  "testimonials.quotes": [
+    [
+      {
+        "quote": "We cancelled the Monday status call three weeks in. Nobody has asked for it back.",
+        "name": "Priya N.",
+        "role": "Head of Delivery"
+      },
+      {
+        "quote": "It is the first tool where the plan and the reality stayed the same shape.",
+        "name": "Tom A.",
+        "role": "Engineering Manager"
+      },
+      {
+        "quote": "Setup took an afternoon. The migration I was dreading never happened.",
+        "name": "Lena K.",
+        "role": "Operations Lead"
+      }
+    ]
+  ],
+  "faq.heading": [
+    "Questions, answered",
+    "Common questions",
+    "Before you ask"
+  ],
+  "faq.questions": [
+    [
+      {
+        "q": "Do I need a credit card to start?",
+        "a": "No. The Starter plan is free for up to three people and does not ask for payment details."
+      },
+      {
+        "q": "Can I change plan later?",
+        "a": "Yes, at any time. Changes are prorated and take effect on your next invoice."
+      },
+      {
+        "q": "What happens to my data if I leave?",
+        "a": "You can export everything as CSV or JSON at any point, including after cancelling."
+      },
+      {
+        "q": "Is there a discount for non-profits?",
+        "a": "Yes. Get in touch and we will apply a non-profit rate to your account."
+      }
+    ]
+  ],
+  "cta.heading": [
+    "Ready when you are",
+    "Start your first project today",
+    "See it on your own work"
+  ],
+  "cta.subheading": [
+    "Free for three people. No card, no sales call.",
+    "Set up takes about five minutes.",
+    "Import a project and judge it for yourself."
+  ],
+  "cta.cta_label": [
+    "Start free",
+    "Create your first project"
+  ],
+  "about-strip.heading": [
+    "Built by people who ran the meetings",
+    "Why we made this"
+  ],
+  "about-strip.body": [
+    "We spent years reporting on work instead of doing it. This is the tool we wanted then: honest about progress, quiet about everything else.",
+    "Small teams do not need enterprise process. They need to see the same picture at the same time."
+  ],
+  "team.heading": [
+    "The team",
+    "Who you will be working with"
+  ],
+  "team.people": [
+    [
+      {
+        "initial": "P",
+        "name": "Priya Nair",
+        "role": "Product"
+      },
+      {
+        "initial": "T",
+        "name": "Tom Abbott",
+        "role": "Engineering"
+      },
+      {
+        "initial": "L",
+        "name": "Lena Kovac",
+        "role": "Support"
+      }
+    ]
+  ],
+  "contact.heading": [
+    "Talk to us",
+    "Get in touch"
+  ],
+  "contact.subheading": [
+    "We reply to everything within one working day.",
+    "Questions about pricing, security or migration? Ask away."
+  ],
+  "contact.action": [
+    "#"
+  ],
+  "contact.submit_label": [
+    "Send message"
+  ],
+  "page-header.subheading": [
+    "",
+    "Everything on one page."
+  ],
+  "process.heading": [
+    "How it works"
+  ],
+  "process.subheading": [
+    "Three steps, about five minutes."
+  ],
+  "process.steps": [
+    [
+      {
+        "title": "Import a project",
+        "body": "Bring a spreadsheet or start from a template. Nothing to configure."
+      },
+      {
+        "title": "Invite the team",
+        "body": "They see the same timeline you do, immediately."
+      },
+      {
+        "title": "Stop reporting",
+        "body": "Progress updates itself from real activity."
+      }
+    ]
+  ],
+  "help.heading": [
+    "Need a hand?"
+  ],
+  "help.items": [
+    [
+      {
+        "title": "Getting started",
+        "body": "Set up your first project in about five minutes.",
+        "link_label": "Read the guide",
+        "href": "#"
+      },
+      {
+        "title": "Importing data",
+        "body": "Bring across spreadsheets, or pull from the usual tools.",
+        "link_label": "Import guide",
+        "href": "#"
+      },
+      {
+        "title": "Billing",
+        "body": "Plans, invoices and how proration works.",
+        "link_label": "Billing help",
+        "href": "#"
+      }
+    ]
+  ],
+  "banner.message": [
+    "Version 3 is out — timelines are now shareable read-only."
+  ],
+  "banner.cta_label": [
+    "What changed"
+  ],
+  "contact.details": [
+    [
+      {
+        "key": "Email",
+        "value": "hello@example.com",
+        "href": "#"
+      },
+      {
+        "key": "Support",
+        "value": "support@example.com",
+        "href": "#"
+      }
+    ]
+  ],
+  "hero.footnote": [
+    "Free for three people. No card required.",
+    "No credit card, no sales call."
+  ],
+  "hero.action": [
+    "#"
+  ],
+  "hero.submit_label": [
+    "Start free"
+  ]
+}

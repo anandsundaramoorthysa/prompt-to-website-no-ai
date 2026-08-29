@@ -1,0 +1,35 @@
+/* WCAG 2.2 · 2.4.11 Focus Not Obscured — a sticky header hides focused
+   elements on keyboard navigation unless the scroll port is padded. */
+html { scroll-padding-block-start: var(--pw-nav-height, 68px); }
+
+.pw-nav {
+  position: sticky;
+  inset-block-start: 0;
+  z-index: 1030;
+  background: var(--pw-color-surface);
+  border-block-end: 1px solid var(--pw-color-line);
+}
+.pw-nav__brand {
+  font-family: var(--pw-font-display);
+  font-weight: 600;
+  color: var(--pw-color-primary);
+  padding-block: var(--pw-space-2);
+}
+.pw-nav__link {
+  color: var(--pw-color-muted);
+  /* WCAG 2.2 · 2.5.8 Target Size (Minimum) */
+  min-block-size: var(--pw-target-min);
+  min-inline-size: var(--pw-target-min);
+  display: inline-flex;
+  align-items: center;
+  padding-inline: var(--pw-space-3);
+}
+.pw-nav__link:hover, .pw-nav__link:focus-visible { color: var(--pw-color-ink); }
+.pw-nav__cta { margin-inline-start: var(--pw-space-3); }
+.pw-nav__toggle {
+  min-block-size: var(--pw-target-min);
+  min-inline-size: var(--pw-target-min);
+}
+@media (max-width: 767.98px) {
+  .pw-nav__cta { margin-inline-start: 0; margin-block-start: var(--pw-space-3); display: inline-block; }
+}

@@ -1,0 +1,8 @@
+.pw-shop4 { padding-block: var(--pw-space-8); }
+.pw-shop4__list { list-style: none; margin: 0; padding: 0; }
+.pw-shop4__item .pw-tile { inline-size: 100%; block-size: auto;
+  border-radius: var(--pw-radius-sm); display: block; }
+.pw-shop4__name { font-family: var(--pw-font-display); font-size: 1rem;
+  color: var(--pw-color-ink); margin-block: var(--pw-space-2) var(--pw-space-1); }
+.pw-shop4__price { color: var(--pw-color-primary); font-weight: 600;
+  font-variant-numeric: tabular-nums; margin: 0; }

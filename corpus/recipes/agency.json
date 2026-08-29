@@ -1,0 +1,19 @@
+{
+  "id": "agency",
+  "label": "Agency",
+  "defaultTokens": "slate-pro",
+  "copyBank": "agency",
+  "shared": ["nav", "footer"],
+  "pages": [
+    { "slug": "index", "title": "Home", "default": true,
+      "sections": ["nav", "hero", "social-proof", "services", "testimonials", "cta", "footer"] },
+    { "slug": "services", "title": "Services",
+      "sections": ["nav", "page-header", "services", "faq", "footer"] },
+    { "slug": "work", "title": "Work",
+      "sections": ["nav", "page-header", "project-grid", "footer"] },
+    { "slug": "about", "title": "About",
+      "sections": ["nav", "page-header", "about-strip", "team", "footer"] },
+    { "slug": "contact", "title": "Contact",
+      "sections": ["nav", "page-header", "contact", "footer"] }
+  ]
+}

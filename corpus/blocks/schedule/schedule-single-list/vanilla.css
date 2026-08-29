@@ -1,0 +1,11 @@
+.pw-sched { padding-block: var(--pw-space-8); }
+.pw-sched__list { list-style: none; margin: 0; padding: 0;
+  max-inline-size: 48rem; margin-inline: auto; }
+.pw-sched__row { display: grid; gap: var(--pw-space-2); padding-block: var(--pw-space-4);
+  border-block-end: 1px solid var(--pw-color-line); }
+@media (min-width: 640px) { .pw-sched__row { grid-template-columns: 7rem 1fr; gap: var(--pw-space-5); } }
+.pw-sched__time { color: var(--pw-color-primary); font-family: var(--pw-font-display);
+  font-weight: 600; font-variant-numeric: tabular-nums; margin: 0; }
+.pw-sched__title { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-1); }
+.pw-sched__who { color: var(--pw-color-muted); margin: 0; font-size: .9375rem; }

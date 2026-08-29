@@ -1,0 +1,22 @@
+{
+  "Add a step to the prompt stack": "Einen Schritt zum Prompt-Stapel hinzufügen",
+  "Describe the site you want": "Beschreiben Sie die gewünschte Website",
+  "Diagnostic report copied to the clipboard.": "Diagnosebericht in die Zwischenablage kopiert.",
+  "Generate site here": "Website hier erzeugen",
+  "Insert block": "Baustein einfügen",
+  "Inserted {0}. Its CSS lives in the block corpus — add it to your stylesheet if this file was not generated.": "{0} eingefügt. Das zugehörige CSS liegt im Baustein-Korpus — fügen Sie es Ihrem Stylesheet hinzu, falls diese Datei nicht erzeugt wurde.",
+  "Matched to this file: {0} variant": "Passend zu dieser Datei: Variante {0}",
+  "No site open. Run Generate first.": "Keine Website geöffnet. Führen Sie zuerst „Erzeugen“ aus.",
+  "Not in my vocabulary: {0}. I built the rest.": "Nicht in meinem Wortschatz: {0}. Der Rest wurde erstellt.",
+  "Open an HTML file first.": "Öffnen Sie zuerst eine HTML-Datei.",
+  "Overwrite": "Überschreiben",
+  "Palette changed to {0}.": "Palette auf {0} geändert.",
+  "Preview server stopped, port released.": "Vorschauserver gestoppt, Port freigegeben.",
+  "Prompt to Website": "Prompt to Website",
+  "Prompt to Website — open the Studio panel": "Prompt to Website — Studio-Bereich öffnen",
+  "Re-theme": "Farbschema ändern",
+  "Refine": "Verfeinern",
+  "Rewrites css/tokens.css only": "Überschreibt ausschließlich css/tokens.css",
+  "Site written.": "Website geschrieben.",
+  "{0} file(s) already exist and would be overwritten.": "{0} Datei(en) sind bereits vorhanden und würden überschrieben."
+}

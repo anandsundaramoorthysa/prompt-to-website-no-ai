@@ -1,0 +1,11 @@
+.pw-servm { padding-block: var(--pw-space-8); background: var(--pw-color-surface); }
+.pw-servm__card { background: var(--pw-color-bg); border: 1px solid var(--pw-color-line);
+  border-radius: var(--pw-radius-md); padding: var(--pw-space-5); block-size: 100%; }
+.pw-servm__mark { display: inline-flex; align-items: center; justify-content: center;
+  inline-size: 36px; block-size: 36px; border-radius: var(--pw-radius-sm);
+  background: var(--pw-color-primary); color: var(--pw-color-primary-ink);
+  font-family: var(--pw-font-display); font-weight: 700;
+  margin-block-end: var(--pw-space-3); }
+.pw-servm__title { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-2); }
+.pw-servm__body { color: var(--pw-color-muted); margin: 0; }

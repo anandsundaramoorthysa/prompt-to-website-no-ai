@@ -1,0 +1,60 @@
+{
+  "id": "nav-centered-links",
+  "category": "nav",
+  "label": "Centered links",
+  "tags": [
+    "portfolio",
+    "restaurant"
+  ],
+  "weight": 10,
+  "slots": {
+    "brand": {
+      "type": "text",
+      "required": true
+    },
+    "links": {
+      "type": "list",
+      "min": 2,
+      "max": 6
+    },
+    "cta_label": {
+      "type": "text"
+    }
+  },
+  "stacks": {
+    "bootstrap": {
+      "available": true,
+      "js": "bootstrap.Collapse"
+    },
+    "vanilla": {
+      "available": true,
+      "nojs_fallback": "checkbox-toggle"
+    }
+  },
+  "assets": [],
+  "insertable": true,
+  "conflicts": [
+    "nav-sticky-simple"
+  ],
+  "a11y": {
+    "automated": {
+      "tool": "axe-core",
+      "targetSizeRule": true,
+      "violations": 0,
+      "date": "2026-08-18"
+    },
+    "manual": {
+      "focusNotObscured": "not sticky — no obscuring surface",
+      "dragging": "n/a — no drag interaction",
+      "reflow": "verified at 320px by scripts/audit-manual.mjs",
+      "date": "2026-08-18",
+      "by": "human + audit-manual.mjs"
+    }
+  },
+  "provenance": {
+    "origin": "authored",
+    "license": "MIT",
+    "author": "human",
+    "attribution": null
+  }
+}

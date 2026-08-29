@@ -1,0 +1,7 @@
+.pw-projects { padding-block: var(--pw-space-8); }
+.pw-projects__list { list-style: none; margin: 0; padding: 0; }
+.pw-project__title { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: var(--pw-space-3) var(--pw-space-1); }
+.pw-project__meta { color: var(--pw-color-muted); font-size: .9375rem; margin: 0; }
+.pw-project .pw-tile { inline-size: 100%; block-size: auto;
+  border-radius: var(--pw-radius-md); display: block; }

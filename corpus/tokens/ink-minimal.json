@@ -1,0 +1,15 @@
+{
+  "id": "ink-minimal", "label": "Ink Minimal",
+  "color": { "primary": "#1A1A1A", "primary-ink": "#FFFFFF", "bg": "#FAFAFA",
+             "surface": "#FFFFFF", "ink": "#131313", "muted": "#5C5C5C",
+             "line": "#E2E2E2", "hero-bg": "#F0F0F0" },
+  "colorDark": { "primary": "#EDEDED", "primary-ink": "#101010", "bg": "#0E0E0E",
+                 "surface": "#161616", "ink": "#EDEDED", "muted": "#A3A3A3",
+                 "line": "#2A2A2A", "hero-bg": "#151515" },
+  "font": { "display": "'Segoe UI Semibold', 'Segoe UI', system-ui, sans-serif",
+            "body": "'Segoe UI', system-ui, -apple-system, sans-serif" },
+  "radius": { "sm": "0px", "md": "0px", "lg": "0px" },
+  "space": { "1": "4px", "2": "8px", "3": "12px", "4": "18px", "5": "28px", "6": "40px", "7": "56px", "8": "88px" },
+  "shadow": { "sm": "none", "md": "none" },
+  "target": { "min": "24px" }
+}

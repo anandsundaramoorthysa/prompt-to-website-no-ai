@@ -1,0 +1,5 @@
+.pw-about { padding-block: var(--pw-space-8); }
+.pw-about__grid { align-items: center; gap: var(--pw-space-7); }
+.pw-about__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: clamp(1.5rem, 3vw, 2rem); margin-block: 0 var(--pw-space-3); text-wrap: balance; }
+.pw-about__body { color: var(--pw-color-muted); margin: 0; max-inline-size: 52ch; }

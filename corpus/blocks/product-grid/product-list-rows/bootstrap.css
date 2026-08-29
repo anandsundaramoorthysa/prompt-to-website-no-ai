@@ -1,0 +1,11 @@
+.pw-plist { padding-block: var(--pw-space-8); }
+.pw-plist__list { list-style: none; margin: 0; padding: 0;
+  max-inline-size: 46rem; margin-inline: auto; }
+.pw-plist__row { display: flex; gap: var(--pw-space-4); align-items: baseline;
+  justify-content: space-between; padding-block: var(--pw-space-4);
+  border-block-end: 1px solid var(--pw-color-line); }
+.pw-plist__name { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-1); }
+.pw-plist__note { color: var(--pw-color-muted); margin: 0; font-size: .9375rem; }
+.pw-plist__price { color: var(--pw-color-primary); font-weight: 600; margin: 0;
+  font-variant-numeric: tabular-nums; flex: none; }

@@ -1,0 +1,22 @@
+{
+  "Add a step to the prompt stack": "Add a step to the prompt stack",
+  "Describe the site you want": "Describe the site you want",
+  "Diagnostic report copied to the clipboard.": "Diagnostic report copied to the clipboard.",
+  "Generate site here": "Generate site here",
+  "Insert block": "Insert block",
+  "Inserted {0}. Its CSS lives in the block corpus — add it to your stylesheet if this file was not generated.": "Inserted {0}. Its CSS lives in the block corpus — add it to your stylesheet if this file was not generated.",
+  "Matched to this file: {0} variant": "Matched to this file: {0} variant",
+  "No site open. Run Generate first.": "No site open. Run Generate first.",
+  "Not in my vocabulary: {0}. I built the rest.": "Not in my vocabulary: {0}. I built the rest.",
+  "Open an HTML file first.": "Open an HTML file first.",
+  "Overwrite": "Overwrite",
+  "Palette changed to {0}.": "Palette changed to {0}.",
+  "Preview server stopped, port released.": "Preview server stopped, port released.",
+  "Prompt to Website": "Prompt to Website",
+  "Prompt to Website — open the Studio panel": "Prompt to Website — open the Studio panel",
+  "Re-theme": "Re-theme",
+  "Refine": "Refine",
+  "Rewrites css/tokens.css only": "Rewrites css/tokens.css only",
+  "Site written.": "Site written.",
+  "{0} file(s) already exist and would be overwritten.": "{0} file(s) already exist and would be overwritten."
+}

@@ -1,0 +1,7 @@
+.pw-stats { padding-block: var(--pw-space-7); background: var(--pw-color-surface); }
+.pw-stats__list { list-style: none; margin: 0; padding: 0; display: flex;
+  flex-wrap: wrap; justify-content: center; gap: var(--pw-space-7); text-align: center; }
+.pw-stat__value { font-family: var(--pw-font-display); font-size: 2.25rem;
+  color: var(--pw-color-primary); margin-block: 0 var(--pw-space-1);
+  font-variant-numeric: tabular-nums; }
+.pw-stat__label { color: var(--pw-color-muted); margin: 0; font-size: .9375rem; }

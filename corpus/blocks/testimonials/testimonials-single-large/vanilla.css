@@ -1,0 +1,7 @@
+.pw-quote1 { padding-block: var(--pw-space-8); background: var(--pw-color-hero-bg); }
+.pw-quote1__fig { margin: 0; max-inline-size: 44rem; margin-inline: auto; text-align: center; }
+.pw-quote1__text { margin-block: 0 var(--pw-space-4); }
+.pw-quote1__text p { margin: 0; font-family: var(--pw-font-display);
+  font-size: clamp(1.25rem, 2.6vw, 1.75rem); line-height: 1.35;
+  color: var(--pw-color-ink); text-wrap: balance; }
+.pw-quote1__by { color: var(--pw-color-muted); font-size: .9375rem; }

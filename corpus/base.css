@@ -1,0 +1,116 @@
+/* Base layer. Shipped with every generated site, before block CSS.
+   Everything here reads tokens; no raw colours. */
+*, *::before, *::after { box-sizing: border-box; }
+body {
+  margin: 0;
+  background: var(--pw-color-bg);
+  color: var(--pw-color-ink);
+  font-family: var(--pw-font-body);
+  line-height: 1.6;
+  -webkit-text-size-adjust: 100%;
+}
+img, svg, video { max-inline-size: 100%; block-size: auto; }
+a { color: var(--pw-color-primary); }
+:focus-visible { outline: 2px solid var(--pw-color-primary); outline-offset: 2px; }
+
+.pw-section__title {
+  font-family: var(--pw-font-display);
+  color: var(--pw-color-ink);
+  font-size: clamp(1.5rem, 3vw, 2rem);
+  text-align: center;
+  margin-block-end: var(--pw-space-3);
+  text-wrap: balance;
+}
+.pw-section__sub {
+  color: var(--pw-color-muted);
+  text-align: center;
+  max-inline-size: 56ch;
+  margin-inline: auto;
+  margin-block-end: var(--pw-space-6);
+}
+
+/* WCAG 2.2 · 2.5.8 Target Size (Minimum) applies to every interactive control. */
+.pw-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  min-block-size: 44px;
+  min-inline-size: var(--pw-target-min);
+  padding-inline: var(--pw-space-5);
+  border-radius: var(--pw-radius-sm);
+  font-weight: 600;
+  text-decoration: none;
+  border: 1px solid transparent;
+}
+.pw-btn--primary { background: var(--pw-color-primary); color: var(--pw-color-primary-ink); }
+.pw-btn--primary:hover { filter: brightness(1.08); color: var(--pw-color-primary-ink); }
+.pw-btn--ghost { background: transparent; color: var(--pw-color-ink); border-color: var(--pw-color-line); }
+.pw-btn--ghost:hover { border-color: var(--pw-color-primary); color: var(--pw-color-primary); }
+.pw-btn--invert { background: var(--pw-color-surface); color: var(--pw-color-primary); }
+.pw-btn--invert:hover { filter: brightness(.96); color: var(--pw-color-primary); }
+
+.pw-visually-hidden {
+  position: absolute; inline-size: 1px; block-size: 1px;
+  padding: 0; margin: -1px; overflow: hidden; clip-path: inset(50%); white-space: nowrap;
+}
+
+/* A skip link that stays clipped when focused is worse than no skip link:
+   the focus ring lands somewhere invisible. WCAG 2.2 / 2.4.11. */
+a.pw-visually-hidden:focus,
+a.pw-visually-hidden:focus-visible {
+  position: fixed;
+  inset-block-start: var(--pw-space-3);
+  inset-inline-start: var(--pw-space-3);
+  inline-size: auto; block-size: auto;
+  margin: 0; overflow: visible; clip-path: none;
+  z-index: 2000;
+  padding: var(--pw-space-3) var(--pw-space-4);
+  background: var(--pw-color-surface);
+  color: var(--pw-color-ink);
+  border: 2px solid var(--pw-color-primary);
+  border-radius: var(--pw-radius-sm);
+  text-decoration: none;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: .001ms !important;
+    transition-duration: .001ms !important;
+    scroll-behavior: auto !important;
+  }
+}
+
+/* Layout utilities for the vanilla variants (stacks 1 and 2).
+   Bootstrap supplies its own equivalents in stack 3, so these are additive
+   and never fight it: distinct pw- prefix, no element selectors. */
+.pw-container {
+  inline-size: 100%;
+  max-inline-size: 1140px;
+  margin-inline: auto;
+  padding-inline: var(--pw-space-4);
+}
+.pw-grid { display: grid; gap: var(--pw-space-4); }
+@media (min-width: 768px) {
+  .pw-grid--2 { grid-template-columns: repeat(2, 1fr); }
+  .pw-grid--3 { grid-template-columns: repeat(3, 1fr); }
+  .pw-grid--4 { grid-template-columns: repeat(4, 1fr); }
+}
+
+/* Form primitives. Shared by every block with a form, so they live here rather
+   than inside one block: booking-form previously inherited these from
+   contact-form-simple and rendered unstyled without it. */
+.pw-form { display: grid; gap: var(--pw-space-4); }
+.pw-field { display: grid; gap: var(--pw-space-2); }
+.pw-label { color: var(--pw-color-ink); font-weight: 600; font-size: .9375rem; }
+.pw-input {
+  inline-size: 100%;
+  padding: var(--pw-space-3);
+  min-block-size: 44px;
+  border: 1px solid var(--pw-color-line);
+  border-radius: var(--pw-radius-sm);
+  background: var(--pw-color-surface);
+  color: var(--pw-color-ink);
+  font: inherit;
+}
+.pw-input:focus-visible { outline: 2px solid var(--pw-color-primary); outline-offset: 1px; }
+.pw-form .pw-btn { justify-self: start; }

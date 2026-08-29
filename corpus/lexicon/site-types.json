@@ -1,0 +1,121 @@
+{
+  "saas-landing": {
+    "label": "SaaS Landing",
+    "terms": {
+      "saas": 10,
+      "software": 6,
+      "startup": 6,
+      "landing page": 8,
+      "platform": 5,
+      "app": 4,
+      "analytics": 5,
+      "project management": 6,
+      "dashboard": 4,
+      "product page": 7,
+      "b2b": 5,
+      "subscription": 5
+    },
+    "negative": {
+      "restaurant": -8,
+      "bakery": -8,
+      "portfolio": -8,
+      "photographer": -6
+    }
+  },
+  "restaurant": {
+    "label": "Restaurant",
+    "terms": {
+      "restaurant": 10,
+      "bakery": 10,
+      "cafe": 9,
+      "coffee shop": 9,
+      "bistro": 8,
+      "diner": 7,
+      "pizzeria": 9,
+      "food truck": 8,
+      "catering": 7,
+      "menu": 4,
+      "eatery": 9,
+      "brasserie": 9
+    },
+    "negative": {
+      "saas": -8,
+      "dashboard": -6,
+      "api": -6
+    }
+  },
+  "portfolio": {
+    "label": "Portfolio",
+    "terms": {
+      "portfolio": 10,
+      "photographer": 9,
+      "designer": 8,
+      "illustrator": 8,
+      "freelance": 6,
+      "my work": 7,
+      "personal site": 7,
+      "artist": 7
+    },
+    "negative": {
+      "saas": -6,
+      "restaurant": -6,
+      "agency": -3
+    }
+  },
+  "agency": {
+    "label": "Agency",
+    "terms": {
+      "agency": 10,
+      "studio": 6,
+      "consultancy": 9,
+      "design agency": 10,
+      "marketing agency": 10,
+      "web agency": 10,
+      "creative team": 7,
+      "consulting": 8
+    },
+    "negative": {
+      "restaurant": -6,
+      "bakery": -6
+    }
+  },
+  "event": {
+    "label": "Event",
+    "terms": {
+      "event": 10,
+      "conference": 10,
+      "meetup": 8,
+      "festival": 9,
+      "workshop": 7,
+      "summit": 9,
+      "wedding": 9,
+      "ticketed": 6,
+      "symposium": 9,
+      "hackathon": 8
+    },
+    "negative": {
+      "saas": -6,
+      "bakery": -6,
+      "shop": -4
+    }
+  },
+  "shop": {
+    "label": "Shop",
+    "terms": {
+      "shop": 10,
+      "store": 9,
+      "ecommerce": 10,
+      "e-commerce": 10,
+      "boutique": 9,
+      "online store": 10,
+      "products": 5,
+      "webshop": 10,
+      "merch": 7
+    },
+    "negative": {
+      "saas": -6,
+      "restaurant": -5,
+      "conference": -6
+    }
+  }
+}

@@ -1,0 +1,8 @@
+.pw-awards { padding-block: var(--pw-space-8); }
+.pw-awards__list { list-style: none; margin: 0; padding: 0;
+  max-inline-size: 44rem; margin-inline: auto; }
+.pw-awards__item { display: flex; flex-wrap: wrap; gap: var(--pw-space-3);
+  justify-content: space-between; padding-block: var(--pw-space-3);
+  border-block-end: 1px solid var(--pw-color-line); }
+.pw-awards__name { color: var(--pw-color-ink); font-weight: 600; margin: 0; }
+.pw-awards__meta { color: var(--pw-color-muted); margin: 0; }

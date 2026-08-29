@@ -1,0 +1,5 @@
+.pw-prose { padding-block: var(--pw-space-8); }
+.pw-prose__inner { max-inline-size: 62ch; margin-inline: auto; }
+.pw-prose__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: 1.5rem; margin-block: 0 var(--pw-space-4); }
+.pw-prose p { color: var(--pw-color-muted); }

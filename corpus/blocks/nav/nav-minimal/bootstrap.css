@@ -1,0 +1,14 @@
+/* No sticky positioning and no toggle: the link count is capped at five,
+   so it wraps rather than collapsing, and needs no JavaScript in any stack. */
+.pw-navm { padding-block: var(--pw-space-5); }
+.pw-navm__inner { display: flex; flex-wrap: wrap; gap: var(--pw-space-4);
+  align-items: baseline; justify-content: space-between; }
+.pw-navm__brand { font-family: var(--pw-font-display); font-weight: 600; font-size: 1.125rem;
+  color: var(--pw-color-ink); text-decoration: none;
+  min-block-size: var(--pw-target-min); display: inline-flex; align-items: center; }
+.pw-navm__links { list-style: none; margin: 0; padding: 0; display: flex;
+  flex-wrap: wrap; gap: var(--pw-space-3); }
+.pw-navm__link { color: var(--pw-color-muted); text-decoration: none;
+  min-block-size: var(--pw-target-min); display: inline-flex; align-items: center; }
+.pw-navm__link:hover, .pw-navm__link:focus-visible {
+  color: var(--pw-color-ink); text-decoration: underline; }

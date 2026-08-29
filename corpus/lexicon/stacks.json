@@ -1,0 +1,5 @@
+{
+  "html-css":    ["html and css only", "no javascript", "without js", "css only", "plain html", "static only"],
+  "html-css-js": ["vanilla", "no framework", "no bootstrap", "plain javascript", "vanilla js"],
+  "bootstrap":   ["bootstrap", "with bootstrap", "using bootstrap", "bootstrap 5"]
+}

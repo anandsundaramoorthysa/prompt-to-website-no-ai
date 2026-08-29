@@ -1,0 +1,13 @@
+/* Authored on details/summary so the identical markup serves stack 1 with
+   no JavaScript at all. See meta.json nojs_fallback. */
+.pw-faq { padding-block: var(--pw-space-8); }
+.pw-faq__list { max-inline-size: 60ch; margin-inline: auto; }
+.pw-faq__item { border-block-end: 1px solid var(--pw-color-line); }
+.pw-faq__q {
+  font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  padding-block: var(--pw-space-4); cursor: pointer;
+  min-block-size: var(--pw-target-min);
+}
+.pw-faq__q:focus-visible { outline: 2px solid var(--pw-color-primary); outline-offset: 2px; }
+.pw-faq__a { color: var(--pw-color-muted); padding-block-end: var(--pw-space-4); }
+.pw-faq__a p { margin: 0; }

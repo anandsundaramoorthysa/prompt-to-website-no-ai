@@ -1,0 +1,6 @@
+.pw-help { padding-block: var(--pw-space-8); }
+.pw-help__title { font-family: var(--pw-font-display); font-size: 1.0625rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-2); }
+.pw-help__body { color: var(--pw-color-muted); margin-block: 0 var(--pw-space-2); }
+.pw-help__link { color: var(--pw-color-primary); font-weight: 600;
+  min-block-size: var(--pw-target-min); display: inline-flex; align-items: center; }

@@ -1,0 +1,12 @@
+.pw-price2 { padding-block: var(--pw-space-8); background: var(--pw-color-surface); }
+.pw-price2__card { border: 1px solid var(--pw-color-line); border-radius: var(--pw-radius-lg);
+  padding: var(--pw-space-6); block-size: 100%; display: flex; flex-direction: column;
+  background: var(--pw-color-bg); }
+.pw-price2__name { font-family: var(--pw-font-display); color: var(--pw-color-muted);
+  text-transform: uppercase; letter-spacing: .06em; font-size: .9375rem;
+  margin-block: 0 var(--pw-space-3); }
+.pw-price2__amount { font-family: var(--pw-font-display); font-size: 2.5rem;
+  color: var(--pw-color-ink); margin-block: 0 var(--pw-space-3);
+  font-variant-numeric: tabular-nums; }
+.pw-price2__period { font-size: 1rem; color: var(--pw-color-muted); }
+.pw-price2__note { color: var(--pw-color-muted); flex: 1; margin-block: 0 var(--pw-space-4); }

@@ -1,0 +1,18 @@
+# Pre-flight decision 4: LF everywhere. Byte-identical output is the product's
+# central guarantee, and a CRLF checkout on Windows silently breaks the
+# provenance hash and the prompt-stack replay.
+* text=auto eol=lf
+
+# Corpus and source must never be normalised to CRLF.
+*.ts    text eol=lf
+*.mjs   text eol=lf
+*.json  text eol=lf
+*.css   text eol=lf
+*.html  text eol=lf
+*.md    text eol=lf
+*.svg   text eol=lf
+
+# Binary
+*.png   binary
+*.vsix  binary
+*.woff2 binary

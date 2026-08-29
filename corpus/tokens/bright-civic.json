@@ -1,0 +1,15 @@
+{
+  "id": "bright-civic", "label": "Bright Civic",
+  "color": { "primary": "#8A2E6B", "primary-ink": "#FFFFFF", "bg": "#FDF7FB",
+             "surface": "#FFFFFF", "ink": "#2B1620", "muted": "#6B5460",
+             "line": "#F0DCE8", "hero-bg": "#F8E7F2" },
+  "colorDark": { "primary": "#E39BC8", "primary-ink": "#1B0F17", "bg": "#1A1016",
+                 "surface": "#231620", "ink": "#F7E6EF", "muted": "#BC9EAC",
+                 "line": "#3A2430", "hero-bg": "#2A1822" },
+  "font": { "display": "'Segoe UI Semibold', 'Segoe UI', system-ui, sans-serif",
+            "body": "'Segoe UI', system-ui, -apple-system, sans-serif" },
+  "radius": { "sm": "6px", "md": "12px", "lg": "20px" },
+  "space": { "1": "4px", "2": "8px", "3": "12px", "4": "16px", "5": "24px", "6": "32px", "7": "48px", "8": "72px" },
+  "shadow": { "sm": "0 1px 3px rgba(43,22,32,.08)", "md": "0 6px 20px rgba(43,22,32,.12)" },
+  "target": { "min": "24px" }
+}

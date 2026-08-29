@@ -1,0 +1,9 @@
+.pw-pagehi { display: grid; isolation: isolate; }
+.pw-pagehi__media { grid-area: 1 / 1; overflow: hidden; }
+.pw-pagehi__media .pw-hero__media { inline-size: 100%; block-size: 100%;
+  object-fit: cover; border-radius: 0; }
+.pw-pagehi__inner { grid-area: 1 / 1; z-index: 1; background: var(--pw-color-ink);
+  padding: var(--pw-space-7) var(--pw-space-4); text-align: center; }
+.pw-pagehi__title { font-family: var(--pw-font-display); color: var(--pw-color-bg);
+  font-size: clamp(1.75rem, 3.5vw, 2.5rem); margin-block: 0 var(--pw-space-2); text-wrap: balance; }
+.pw-pagehi__sub { color: var(--pw-color-bg); margin: 0; }

@@ -1,0 +1,15 @@
+{
+  "id": "portfolio",
+  "label": "Portfolio",
+  "defaultTokens": "ink-minimal",
+  "copyBank": "portfolio",
+  "shared": ["nav", "footer"],
+  "pages": [
+    { "slug": "index", "title": "Home", "default": true,
+      "sections": ["nav", "hero", "project-grid", "about-strip", "cta", "footer"] },
+    { "slug": "work", "title": "Work",
+      "sections": ["nav", "page-header", "project-grid", "footer"] },
+    { "slug": "contact", "title": "Contact",
+      "sections": ["nav", "page-header", "contact", "footer"] }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "industry": "agency",
+  "nav.cta_label": [
+    "Start a project",
+    "Get in touch",
+    "Book a call"
+  ],
+  "hero.heading": [
+    "Strategy, design and the follow-through",
+    "We finish what we start",
+    "A small studio that ships",
+    "Fewer clients, better work"
+  ],
+  "hero.subheading": [
+    "A six-person studio working with founders and teams who need the whole thing done, not just the pitch.",
+    "Brand, product and web for organisations that would rather do it once, properly.",
+    "We take three projects at a time so none of them wait.",
+    "Independent since 2016, still answering our own email."
+  ],
+  "hero.cta_primary": [
+    "Start a project",
+    "Book a call"
+  ],
+  "hero.cta_secondary": [
+    "See our work",
+    "How we work"
+  ],
+  "social-proof.heading": [
+    "Recent clients",
+    "Trusted by",
+    "We have worked with"
+  ],
+  "social-proof.logos": [
+    [
+      {
+        "name": "Northwind"
+      },
+      {
+        "name": "Harbour Press"
+      },
+      {
+        "name": "Fernway"
+      },
+      {
+        "name": "Kestrel"
+      },
+      {
+        "name": "Still Water"
+      }
+    ]
+  ],
+  "services.heading": [
+    "What we do",
+    "Our services",
+    "How we can help"
+  ],
+  "services.subheading": [
+    "Three things, done properly, rather than everything done adequately.",
+    "Engagements usually run six to twelve weeks.",
+    "Pick one, or run them in sequence."
+  ],
+  "services.items": [
+    [
+      {
+        "title": "Brand",
+        "body": "Positioning, identity and the guidelines your team will actually use."
+      },
+      {
+        "title": "Product",
+        "body": "Research, interface design and prototypes you can test with real users."
+      },
+      {
+        "title": "Build",
+        "body": "Front-end delivery, accessible by default, handed over documented."
+      }
+    ],
+    [
+      {
+        "title": "Discovery",
+        "body": "Two weeks to work out what is really being asked for, before anyone designs anything."
+      },
+      {
+        "title": "Design",
+        "body": "Interface and identity work, reviewed with you weekly rather than revealed at the end."
+      },
+      {
+        "title": "Delivery",
+        "body": "We stay through launch. No handover cliff."
+      }
+    ]
+  ],
+  "project-grid.heading": [
+    "Selected work",
+    "Recent projects"
+  ],
+  "project-grid.items": [
+    [
+      {
+        "title": "Northwind",
+        "meta": "Brand and web, 2026"
+      },
+      {
+        "title": "Harbour Press",
+        "meta": "Product design, 2025"
+      },
+      {
+        "title": "Fernway",
+        "meta": "Identity, 2025"
+      },
+      {
+        "title": "Kestrel",
+        "meta": "Design system, 2024"
+      },
+      {
+        "title": "Still Water",
+        "meta": "Web, 2024"
+      },
+      {
+        "title": "Bramble",
+        "meta": "Brand, 2023"
+      }
+    ]
+  ],
+  "testimonials.heading": [
+    "What clients say",
+    "In their words"
+  ],
+  "testimonials.quotes": [
+    [
+      {
+        "quote": "They pushed back on our brief, and they were right to. The project is better for it.",
+        "name": "Ravi S.",
+        "role": "Northwind"
+      },
+      {
+        "quote": "The only studio we have used that stayed through launch week.",
+        "name": "Elin M.",
+        "role": "Harbour Press"
+      },
+      {
+        "quote": "Documented so well that our own team could pick it up on day one.",
+        "name": "Jonah T.",
+        "role": "Kestrel"
+      }
+    ]
+  ],
+  "about-strip.heading": [
+    "About the studio",
+    "Who we are",
+    "How we work"
+  ],
+  "about-strip.body": [
+    "Six people, one room, no account managers. You work with the people doing the work.",
+    "We take three projects at a time. It means saying no often, and finishing what we say yes to.",
+    "Independent since 2016. Every project is scoped honestly, including the ones we turn down."
+  ],
+  "team.heading": [
+    "The studio",
+    "Who you will work with"
+  ],
+  "team.people": [
+    [
+      {
+        "initial": "R",
+        "name": "Rosa Delgado",
+        "role": "Strategy"
+      },
+      {
+        "initial": "M",
+        "name": "Mo Farouk",
+        "role": "Design"
+      },
+      {
+        "initial": "E",
+        "name": "Ella Byrne",
+        "role": "Engineering"
+      }
+    ]
+  ],
+  "faq.heading": [
+    "Common questions",
+    "Before you get in touch"
+  ],
+  "faq.questions": [
+    [
+      {
+        "q": "What does a project cost?",
+        "a": "Most engagements land between fifteen and sixty thousand, depending on scope. We scope in writing before starting."
+      },
+      {
+        "q": "How long is the wait?",
+        "a": "Usually four to six weeks. Occasionally sooner if a project moves."
+      },
+      {
+        "q": "Do you work with in-house teams?",
+        "a": "Often. We are comfortable leading or supporting, as long as it is agreed up front."
+      }
+    ]
+  ],
+  "cta.heading": [
+    "Start a project",
+    "Tell us what you are working on",
+    "Let us talk"
+  ],
+  "cta.subheading": [
+    "A short call is usually enough to know whether we are a fit.",
+    "We reply to every enquiry, including the ones we cannot take."
+  ],
+  "cta.cta_label": [
+    "Book a call",
+    "Get in touch"
+  ],
+  "contact.heading": [
+    "Start a project",
+    "Get in touch"
+  ],
+  "contact.subheading": [
+    "Tell us the problem rather than the solution, if you can.",
+    "We reply within one working day."
+  ],
+  "contact.action": [
+    "#"
+  ],
+  "contact.submit_label": [
+    "Send enquiry"
+  ],
+  "page-header.subheading": [
+    "",
+    "How we work and what it costs."
+  ],
+  "process.heading": [
+    "How we work",
+    "Our process"
+  ],
+  "process.subheading": [
+    "Three phases, scoped in writing before anything starts."
+  ],
+  "process.steps": [
+    [
+      {
+        "title": "Discovery",
+        "body": "Two weeks working out what is actually being asked for, before anyone designs anything."
+      },
+      {
+        "title": "Design",
+        "body": "Reviewed with you weekly rather than revealed at the end. No big unveilings."
+      },
+      {
+        "title": "Delivery",
+        "body": "We stay through launch and hand over documented. No cliff."
+      }
+    ]
+  ],
+  "timeline.heading": [
+    "A short history"
+  ],
+  "timeline.entries": [
+    [
+      {
+        "year": "2016",
+        "title": "Two people, one room",
+        "body": "Started with a single client and a borrowed desk."
+      },
+      {
+        "year": "2019",
+        "title": "Six people",
+        "body": "Stopped growing on purpose. Three projects at a time ever since."
+      },
+      {
+        "year": "2023",
+        "title": "Independent still",
+        "body": "Turned down acquisition twice, and more work than we took."
+      }
+    ]
+  ],
+  "awards.heading": [
+    "Recognition"
+  ],
+  "awards.items": [
+    [
+      {
+        "name": "Design Week Awards — Brand Identity",
+        "meta": "Shortlisted, 2025"
+      },
+      {
+        "name": "Accessibility in Practice",
+        "meta": "Winner, 2024"
+      },
+      {
+        "name": "Type Directors Club",
+        "meta": "Certificate of excellence, 2023"
+      }
+    ]
+  ],
+  "press.heading": [
+    "Written about us"
+  ],
+  "press.items": [
+    [
+      {
+        "quote": "A studio that says no, which is why the yes is worth something.",
+        "source": "Design Week"
+      },
+      {
+        "quote": "Accessible by default, not by retrofit.",
+        "source": "Harbour Press"
+      },
+      {
+        "quote": "They document better than most in-house teams.",
+        "source": "Kestrel"
+      }
+    ]
+  ]
+}

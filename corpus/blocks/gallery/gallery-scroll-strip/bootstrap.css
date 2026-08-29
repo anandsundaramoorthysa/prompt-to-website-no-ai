@@ -1,0 +1,11 @@
+/* scroll-snap again: swipe and keyboard scrolling with no script. */
+.pw-gstrip { padding-block: var(--pw-space-8); }
+.pw-gstrip__track { list-style: none; margin: 0; padding: 0 0 var(--pw-space-3);
+  display: flex; gap: var(--pw-space-4); overflow-x: auto;
+  scroll-snap-type: x mandatory; overscroll-behavior-x: contain; }
+.pw-gstrip__track:focus-visible { outline: 2px solid var(--pw-color-primary); outline-offset: 4px; }
+.pw-gstrip__item { flex: 0 0 min(20rem, 78%); scroll-snap-align: start; }
+.pw-gstrip__item .pw-tile { inline-size: 100%; block-size: auto;
+  border-radius: var(--pw-radius-md); display: block; }
+.pw-gstrip__caption { color: var(--pw-color-muted); font-size: .9375rem;
+  margin-block: var(--pw-space-2) 0; }

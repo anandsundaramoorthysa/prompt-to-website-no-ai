@@ -1,0 +1,15 @@
+{
+  "id": "saas-landing",
+  "label": "SaaS Landing",
+  "defaultTokens": "clean-corporate",
+  "copyBank": "saas",
+  "shared": ["nav", "footer"],
+  "pages": [
+    {
+      "slug": "index",
+      "title": "Home",
+      "default": true,
+      "sections": ["nav", "hero", "social-proof", "features", "pricing", "faq", "cta", "footer"]
+    }
+  ]
+}

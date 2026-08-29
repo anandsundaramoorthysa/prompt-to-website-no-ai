@@ -1,0 +1,15 @@
+{
+  "id": "slate-pro", "label": "Slate Pro",
+  "color": { "primary": "#3D5A80", "primary-ink": "#FFFFFF", "bg": "#F7F8FA",
+             "surface": "#FFFFFF", "ink": "#1A202C", "muted": "#576273",
+             "line": "#E2E6EC", "hero-bg": "#EDF0F4" },
+  "colorDark": { "primary": "#7FA6D4", "primary-ink": "#0C121B", "bg": "#0F141C",
+                 "surface": "#161D27", "ink": "#E6EBF2", "muted": "#98A5B8",
+                 "line": "#252F3C", "hero-bg": "#161E29" },
+  "font": { "display": "'Segoe UI Semibold', 'Segoe UI', system-ui, sans-serif",
+            "body": "'Segoe UI', system-ui, -apple-system, sans-serif" },
+  "radius": { "sm": "6px", "md": "12px", "lg": "18px" },
+  "space": { "1": "4px", "2": "8px", "3": "12px", "4": "16px", "5": "24px", "6": "32px", "7": "48px", "8": "72px" },
+  "shadow": { "sm": "0 1px 3px rgba(26,32,44,.08)", "md": "0 6px 20px rgba(26,32,44,.12)" },
+  "target": { "min": "24px" }
+}

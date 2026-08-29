@@ -1,0 +1,8 @@
+.pw-proof { padding-block: var(--pw-space-6); background: var(--pw-color-surface); }
+.pw-proof__label { text-align: center; color: var(--pw-color-muted);
+  font-size: .8125rem; letter-spacing: .08em; text-transform: uppercase;
+  margin-block: 0 var(--pw-space-4); }
+.pw-proof__list { list-style: none; margin: 0; padding: 0;
+  display: flex; flex-wrap: wrap; justify-content: center; gap: var(--pw-space-6); }
+.pw-proof__item { font-family: var(--pw-font-display); font-weight: 600;
+  color: var(--pw-color-muted); font-size: 1.0625rem; }

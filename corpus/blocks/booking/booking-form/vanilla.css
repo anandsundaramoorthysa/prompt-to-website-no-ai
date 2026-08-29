@@ -1,0 +1,6 @@
+/* Native date, time and number inputs: validation and pickers come from the
+   browser, so no JavaScript is needed and stack 1 keeps the block. */
+.pw-book { padding-block: var(--pw-space-8); background: var(--pw-color-surface); }
+.pw-book__form { max-inline-size: 40rem; }
+.pw-book__row { display: grid; gap: var(--pw-space-4); }
+@media (min-width: 640px) { .pw-book__row { grid-template-columns: repeat(3, minmax(0, 1fr)); } }

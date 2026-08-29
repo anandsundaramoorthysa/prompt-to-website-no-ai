@@ -1,0 +1,20 @@
+<header class="pw-nav">
+  <nav class="navbar navbar-expand-md" aria-label="Main">
+    <div class="container">
+      <a class="navbar-brand pw-nav__brand" href="index.html">{{brand}}</a>
+      <button class="navbar-toggler pw-nav__toggle" type="button" data-bs-toggle="collapse"
+              data-bs-target="#pwNav" aria-controls="pwNav" aria-expanded="false"
+              aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="pwNav">
+        <ul class="navbar-nav ms-auto pw-nav__links">
+          <!-- pw:repeat links -->
+          <li class="nav-item"><a class="nav-link pw-nav__link" href="{{href}}">{{label}}</a></li>
+          <!-- /pw:repeat -->
+        </ul>
+        <a class="btn pw-btn pw-btn--primary pw-nav__cta" href="#cta">{{cta_label}}</a>
+      </div>
+    </div>
+  </nav>
+</header>

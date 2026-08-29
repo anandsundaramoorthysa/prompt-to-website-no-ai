@@ -1,0 +1,14 @@
+{
+  "id": "shop", "label": "Shop", "defaultTokens": "sand-retail", "copyBank": "shop",
+  "shared": ["nav", "footer"],
+  "pages": [
+    { "slug": "index", "title": "Home", "default": true,
+      "sections": ["nav", "hero", "product-grid", "social-proof", "newsletter", "footer"] },
+    { "slug": "shop", "title": "Shop",
+      "sections": ["nav", "page-header", "product-grid", "footer"] },
+    { "slug": "about", "title": "About",
+      "sections": ["nav", "page-header", "about-strip", "footer"] },
+    { "slug": "contact", "title": "Contact",
+      "sections": ["nav", "page-header", "contact", "footer"] }
+  ]
+}

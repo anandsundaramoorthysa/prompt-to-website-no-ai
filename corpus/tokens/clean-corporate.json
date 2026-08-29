@@ -1,0 +1,32 @@
+{
+  "id": "clean-corporate",
+  "label": "Clean Corporate",
+  "color": {
+    "primary": "#1F5C94",
+    "primary-ink": "#FFFFFF",
+    "bg": "#F5F7FA",
+    "surface": "#FFFFFF",
+    "ink": "#16202B",
+    "muted": "#5B6875",
+    "line": "#DDE4EC",
+    "hero-bg": "#E8EFF7"
+  },
+  "colorDark": {
+    "primary": "#5A9BD8",
+    "primary-ink": "#0B1219",
+    "bg": "#0F1620",
+    "surface": "#161F2B",
+    "ink": "#E3EAF2",
+    "muted": "#93A2B2",
+    "line": "#26313F",
+    "hero-bg": "#17222F"
+  },
+  "font": {
+    "display": "'Segoe UI Semibold', 'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif",
+    "body": "'Segoe UI', system-ui, -apple-system, 'Helvetica Neue', sans-serif"
+  },
+  "radius": { "sm": "4px", "md": "8px", "lg": "14px" },
+  "space":  { "1": "4px", "2": "8px", "3": "12px", "4": "16px", "5": "24px", "6": "32px", "7": "48px", "8": "72px" },
+  "shadow": { "sm": "0 1px 2px rgba(16,24,40,.06)", "md": "0 4px 16px rgba(16,24,40,.10)" },
+  "target": { "min": "24px" }
+}

@@ -1,0 +1,21 @@
+<section class="pw-contact" id="contact">
+  <div class="container">
+    <h2 class="pw-section__title">{{heading}}</h2>
+    <p class="pw-section__sub">{{subheading}}</p>
+    <form class="pw-form" method="post" action="{{action}}">
+      <div class="pw-field">
+        <label class="pw-label" for="pw-name">Your name</label>
+        <input class="pw-input" type="text" id="pw-name" name="name" autocomplete="name" required>
+      </div>
+      <div class="pw-field">
+        <label class="pw-label" for="pw-email">Email</label>
+        <input class="pw-input" type="email" id="pw-email" name="email" autocomplete="email" required>
+      </div>
+      <div class="pw-field">
+        <label class="pw-label" for="pw-message">Message</label>
+        <textarea class="pw-input" id="pw-message" name="message" rows="5" required></textarea>
+      </div>
+      <button class="pw-btn pw-btn--primary" type="submit">{{submit_label}}</button>
+    </form>
+  </div>
+</section>

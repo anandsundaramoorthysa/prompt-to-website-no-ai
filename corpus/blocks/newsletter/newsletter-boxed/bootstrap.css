@@ -1,0 +1,9 @@
+.pw-newsb { padding-block: var(--pw-space-8); }
+.pw-newsb__box { background: var(--pw-color-hero-bg); border-radius: var(--pw-radius-lg);
+  padding: var(--pw-space-7) var(--pw-space-5); text-align: center;
+  max-inline-size: 46rem; margin-inline: auto; }
+.pw-newsb__title { font-family: var(--pw-font-display); color: var(--pw-color-ink);
+  font-size: clamp(1.375rem, 2.8vw, 1.75rem); margin-block: 0 var(--pw-space-2); }
+.pw-newsb__sub { color: var(--pw-color-muted); margin-block: 0 var(--pw-space-5); }
+.pw-newsb__form { display: flex; flex-wrap: wrap; gap: var(--pw-space-2); justify-content: center; }
+.pw-newsb__input { min-inline-size: 17rem; }
